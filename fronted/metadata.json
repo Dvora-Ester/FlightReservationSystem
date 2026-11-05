@@ -1,0 +1,6 @@
+{
+  "name": "FlightReservationSystem",
+  "description": "סקיצת מסכים אינטראקטיבית (Prototype) לניהול טיסות, נוסעים, הזמנות, מושבים, צ'ק-אין ומזוודות",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

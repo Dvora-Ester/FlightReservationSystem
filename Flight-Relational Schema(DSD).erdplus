@@ -1,0 +1,681 @@
+{
+  "diagramType": 2,
+  "data": {
+    "nodes": [
+      {
+        "id": "984850f7-139a-4115-add0-b928d7e65641",
+        "type": "Table",
+        "position": {
+          "x": -47.17966231505335,
+          "y": 22.10369921678444
+        },
+        "data": {
+          "label": "PASSENGER",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "a79c0a0f-ed0a-4610-a402-720030c8b53d",
+              "name": "first_name",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "b3ee82c9-bd9f-4cb6-a264-cfdd13f4715f",
+              "name": "last_name",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "4d1ac5a7-3982-48f3-b514-1d32aeed6ce1",
+              "name": "passport_number",
+              "type": "INT",
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "38d861f8-3d2c-4c56-9475-d8e8e9e5fe6e",
+              "name": "birth_date",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "26e9686b-eef4-418e-ad2c-634443f94637",
+              "name": "nationality",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "e3b2053a-d38a-42b1-a850-3efa117f9431",
+              "name": "phone",
+              "type": "INT",
+              "isPrimaryKey": false,
+              "isOptional": true
+            },
+            {
+              "id": "ddef7661-9378-4e9d-9261-fdc5d7583cf8",
+              "name": "preferences",
+              "type": "INT",
+              "isPrimaryKey": false,
+              "isOptional": true
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "dd83c1c0-9aeb-42b2-b231-7ce41073ca44",
+        "type": "Table",
+        "position": {
+          "x": 339.32530686050137,
+          "y": 18.127413751198034
+        },
+        "data": {
+          "label": "TICKET",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "e71a7e54-864d-4327-b589-6046ddf03c67",
+              "name": "ticket_id",
+              "type": "INT",
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "019c13fa-e0ae-49a2-a55e-92049b23f8e7",
+              "name": "booking_date",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "639c5802-54cc-4d3d-bbc0-679fc0340b03",
+              "name": "fare_class",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "4d0144eb-083b-43a6-8f31-dc5491131e68",
+              "name": "price",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "51ece95c-16e2-4036-8144-b77c8b09e0d5",
+              "name": "ticket_status",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "3093f559-8a83-4f17-9675-b6c9d9b68064",
+              "name": "fk_PASSENGER",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "6ffb17a6-a74e-42f8-b605-0fac31ebc61e",
+                "sourceTableId": "984850f7-139a-4115-add0-b928d7e65641",
+                "columns": [
+                  {
+                    "id": "fk_4d1ac5a7-3982-48f3-b514-1d32aeed6ce1",
+                    "name": "passport_number",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "isOptional": false
+            },
+            {
+              "id": "c4d52129-38f8-4a59-9cd7-5655d7598d30",
+              "name": "fk_CHECKIN",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "dfc8bb85-b41d-4692-8105-32807aed4818",
+                "sourceTableId": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0",
+                "columns": [
+                  {
+                    "id": "fk_d47e6b2f-7ac0-47c5-bcf0-2baf465a4ad8",
+                    "name": "checkin_id",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "isOptional": false
+            },
+            {
+              "id": "3243feb3-b6e2-4700-a208-21de161cb1a4",
+              "name": "fk_SEAT",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "d49b2870-7047-4fa3-85c9-5fe698f39c01",
+                "sourceTableId": "3c227ee1-5a0a-4ab1-90a1-32516282026d",
+                "columns": [
+                  {
+                    "id": "fk_66f9b592-f53e-4cb4-b7f0-0198582ba172",
+                    "name": "seat_number",
+                    "type": "INT"
+                  },
+                  {
+                    "id": "fk_fk_c6843623-c25e-492d-88cc-aeb88d7e2046",
+                    "name": "flight_id",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "isOptional": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 253
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "f428b053-f6d1-4a1f-86b4-e93e48cb87bf",
+        "type": "Table",
+        "position": {
+          "x": 637.8094858137656,
+          "y": 24.010851871181245
+        },
+        "data": {
+          "label": "FLIGHT",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "c6843623-c25e-492d-88cc-aeb88d7e2046",
+              "name": "flight_id",
+              "type": "INT",
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "d7d9919f-65c3-466b-bfb1-2dde711bebd1",
+              "name": "flight_name",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "0151acac-1a26-4f5a-8dce-7a8ad4bd6097",
+              "name": "departure_date",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "6855dfa3-f8c4-4038-9692-934091f1b6e2",
+              "name": "departure_time",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "0882ab4f-58c6-4b02-894e-346847ad274f",
+              "name": "arrival_time",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "f2d14dc7-cc76-460a-bffc-2865d2a71d40",
+              "name": "flight_status",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "6dcabe17-b371-4e40-8e49-aa757b2b3a07",
+              "name": "origin",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "c54c3730-83d4-42c6-a56e-8dcd83abf891",
+              "name": "arrival_date",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "305e5bff-8c74-46bd-9fd4-161b5c32dbca",
+              "name": "destination",
+              "type": "INT",
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "3c227ee1-5a0a-4ab1-90a1-32516282026d",
+        "type": "Table",
+        "position": {
+          "x": 641.714627676111,
+          "y": 305.62379112255894
+        },
+        "data": {
+          "label": "SEAT",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "66f9b592-f53e-4cb4-b7f0-0198582ba172",
+              "name": "seat_number",
+              "type": "INT",
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "98fd64ba-9461-4703-9af9-2c4c1a690133",
+              "name": "seat_class",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "db29059a-d967-41e1-b3b7-3f684e409b99",
+              "name": "seat_position",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "23e4aa30-d6dc-4cad-a01e-b0c71271534c",
+              "name": "fk_FLIGHT",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "10417d7e-96f7-4291-9ce5-c05cc4abf427",
+                "sourceTableId": "f428b053-f6d1-4a1f-86b4-e93e48cb87bf",
+                "columns": [
+                  {
+                    "id": "fk_c6843623-c25e-492d-88cc-aeb88d7e2046",
+                    "name": "flight_id",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "isPrimaryKey": true,
+              "isOptional": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false,
+          "isWeak": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 153
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0",
+        "type": "Table",
+        "position": {
+          "x": 338.0393859006229,
+          "y": 309.9891481288188
+        },
+        "data": {
+          "label": "CHECKIN",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "d47e6b2f-7ac0-47c5-bcf0-2baf465a4ad8",
+              "name": "checkin_id",
+              "type": "INT",
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "d3ec5d97-4525-4087-bb51-1a01f466577d",
+              "name": "checkin_time",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "a1d67d1b-1fb9-4963-a37b-8f1330edf9d6",
+              "name": "boarding_group",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "db00ce42-4a81-43df-968b-85ae15b82124",
+              "name": "checkin_channel",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "3f951712-7b12-4ea5-8a8c-6465e1ebfb31",
+              "name": "checkin_date",
+              "type": "INT",
+              "isPrimaryKey": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "e189d3da-eb6d-4502-9121-aaf993860c37",
+        "type": "Table",
+        "position": {
+          "x": -114.70457371585587,
+          "y": 457.88544891203435
+        },
+        "data": {
+          "label": "BAGGAGE",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "dbec8b0b-2b3c-4695-bdfd-16497dca6621",
+              "name": "baggage_id",
+              "type": "INT",
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "b5f41128-4ea9-41ba-adcf-fe4978bc83ad",
+              "name": "tag_number",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "e7e8cb2d-86d8-400f-b04c-bc67b28f3cd3",
+              "name": "weight_kg",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "b24e3d52-39e2-463c-bb96-cab79c97a224",
+              "name": "status",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "d13f15ac-cc6d-4ae2-9a1c-0edc220ac660",
+              "name": "special_handling",
+              "type": "INT",
+              "isPrimaryKey": false,
+              "isOptional": true
+            },
+            {
+              "id": "e63e8ad1-7039-48d7-b65b-4f60217b84c7",
+              "name": "fk_CHECKIN",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "165a1fdc-4cfa-47ef-93d0-55ec19795a23",
+                "sourceTableId": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0",
+                "columns": [
+                  {
+                    "id": "fk_d47e6b2f-7ac0-47c5-bcf0-2baf465a4ad8",
+                    "name": "checkin_id",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "isOptional": true
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 203
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "758c7e13-4ef5-4f41-bdeb-492615ffff8e",
+        "type": "Table",
+        "position": {
+          "x": -483.9276435156342,
+          "y": 443.05425935590625
+        },
+        "data": {
+          "label": "BAGGAGESCAN",
+          "isConnectable": false,
+          "columns": [
+            {
+              "id": "5df3f510-b4e1-4f05-bf61-588cf56e9ae0",
+              "name": "scan_seq",
+              "type": "INT",
+              "isPrimaryKey": true,
+              "isOptional": false
+            },
+            {
+              "id": "899f27d5-6d7d-4c28-bac6-470027fc69ee",
+              "name": "scan_time",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "4798cbf8-8d80-4459-bc98-2c3f5c5251e6",
+              "name": "location",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "5153761d-e1ba-400a-8bbb-19d1dd5bd162",
+              "name": "scan_status",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "f1eb88cd-1e46-4a59-8d45-d6530851a215",
+              "name": "scan_date",
+              "type": "INT",
+              "isPrimaryKey": false
+            },
+            {
+              "id": "115a3589-9d29-4b87-817a-6e7f869a7302",
+              "name": "fk_BAGGAGE",
+              "type": "None",
+              "isForeignKey": true,
+              "foreignKeyProps": {
+                "foreignKeyGroupId": "06e7b051-373d-469a-a69c-a4cfc416a741",
+                "sourceTableId": "e189d3da-eb6d-4502-9121-aaf993860c37",
+                "columns": [
+                  {
+                    "id": "fk_dbec8b0b-2b3c-4695-bdfd-16497dca6621",
+                    "name": "baggage_id",
+                    "type": "INT"
+                  }
+                ]
+              },
+              "isPrimaryKey": true,
+              "isOptional": false
+            }
+          ],
+          "numberOfGroups": 0,
+          "isSelected": false,
+          "isWeak": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 203
+        },
+        "selected": false,
+        "dragging": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "984850f7-139a-4115-add0-b928d7e65641->dd83c1c0-9aeb-42b2-b231-7ce41073ca44_6ffb17a6-a74e-42f8-b605-0fac31ebc61e",
+        "type": "Relational",
+        "source": "984850f7-139a-4115-add0-b928d7e65641",
+        "targetHandle": "foreign-key-handle-6ffb17a6-a74e-42f8-b605-0fac31ebc61e",
+        "target": "dd83c1c0-9aeb-42b2-b231-7ce41073ca44",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "6ffb17a6-a74e-42f8-b605-0fac31ebc61e",
+            "sourceTableId": "984850f7-139a-4115-add0-b928d7e65641",
+            "columns": [
+              {
+                "id": "fk_4d1ac5a7-3982-48f3-b514-1d32aeed6ce1",
+                "name": "passport_number",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0->dd83c1c0-9aeb-42b2-b231-7ce41073ca44_dfc8bb85-b41d-4692-8105-32807aed4818",
+        "type": "Relational",
+        "source": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0",
+        "targetHandle": "foreign-key-handle-dfc8bb85-b41d-4692-8105-32807aed4818",
+        "target": "dd83c1c0-9aeb-42b2-b231-7ce41073ca44",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "dfc8bb85-b41d-4692-8105-32807aed4818",
+            "sourceTableId": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0",
+            "columns": [
+              {
+                "id": "fk_d47e6b2f-7ac0-47c5-bcf0-2baf465a4ad8",
+                "name": "checkin_id",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "3c227ee1-5a0a-4ab1-90a1-32516282026d->dd83c1c0-9aeb-42b2-b231-7ce41073ca44_d49b2870-7047-4fa3-85c9-5fe698f39c01",
+        "type": "Relational",
+        "source": "3c227ee1-5a0a-4ab1-90a1-32516282026d",
+        "targetHandle": "foreign-key-handle-d49b2870-7047-4fa3-85c9-5fe698f39c01",
+        "target": "dd83c1c0-9aeb-42b2-b231-7ce41073ca44",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "d49b2870-7047-4fa3-85c9-5fe698f39c01",
+            "sourceTableId": "3c227ee1-5a0a-4ab1-90a1-32516282026d",
+            "columns": [
+              {
+                "id": "fk_66f9b592-f53e-4cb4-b7f0-0198582ba172",
+                "name": "seat_number",
+                "type": "INT"
+              },
+              {
+                "id": "fk_fk_c6843623-c25e-492d-88cc-aeb88d7e2046",
+                "name": "flight_id",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "f428b053-f6d1-4a1f-86b4-e93e48cb87bf->3c227ee1-5a0a-4ab1-90a1-32516282026d_10417d7e-96f7-4291-9ce5-c05cc4abf427",
+        "type": "Relational",
+        "source": "f428b053-f6d1-4a1f-86b4-e93e48cb87bf",
+        "targetHandle": "foreign-key-handle-10417d7e-96f7-4291-9ce5-c05cc4abf427",
+        "target": "3c227ee1-5a0a-4ab1-90a1-32516282026d",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "10417d7e-96f7-4291-9ce5-c05cc4abf427",
+            "sourceTableId": "f428b053-f6d1-4a1f-86b4-e93e48cb87bf",
+            "columns": [
+              {
+                "id": "fk_c6843623-c25e-492d-88cc-aeb88d7e2046",
+                "name": "flight_id",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0->e189d3da-eb6d-4502-9121-aaf993860c37_165a1fdc-4cfa-47ef-93d0-55ec19795a23",
+        "type": "Relational",
+        "source": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0",
+        "targetHandle": "foreign-key-handle-165a1fdc-4cfa-47ef-93d0-55ec19795a23",
+        "target": "e189d3da-eb6d-4502-9121-aaf993860c37",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "165a1fdc-4cfa-47ef-93d0-55ec19795a23",
+            "sourceTableId": "bdcf8336-bdb1-45f3-90ce-e0b0691b25a0",
+            "columns": [
+              {
+                "id": "fk_d47e6b2f-7ac0-47c5-bcf0-2baf465a4ad8",
+                "name": "checkin_id",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "e189d3da-eb6d-4502-9121-aaf993860c37->758c7e13-4ef5-4f41-bdeb-492615ffff8e_06e7b051-373d-469a-a69c-a4cfc416a741",
+        "type": "Relational",
+        "source": "e189d3da-eb6d-4502-9121-aaf993860c37",
+        "targetHandle": "foreign-key-handle-06e7b051-373d-469a-a69c-a4cfc416a741",
+        "target": "758c7e13-4ef5-4f41-bdeb-492615ffff8e",
+        "markerStart": {
+          "type": "arrow"
+        },
+        "data": {
+          "foreignKeyProps": {
+            "foreignKeyGroupId": "06e7b051-373d-469a-a69c-a4cfc416a741",
+            "sourceTableId": "e189d3da-eb6d-4502-9121-aaf993860c37",
+            "columns": [
+              {
+                "id": "fk_dbec8b0b-2b3c-4695-bdfd-16497dca6621",
+                "name": "baggage_id",
+                "type": "INT"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "viewport": {
+      "x": 555.5664995783522,
+      "y": 116.5611805516445,
+      "zoom": 0.5
+    }
+  },
+  "name": "FlightReservationSystem (2)-Relational Schema",
+  "folder": {
+    "name": "Diagrams",
+    "folderType": 1,
+    "depth": 0,
+    "id": 481142
+  },
+  "id": 721343,
+  "updatedAtTimestamp": 1793891220
+}
