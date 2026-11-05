@@ -1,0 +1,1001 @@
+baggage_id,scan_seq,scan_date,scan_time,location,scan_status
+BAG-5001,1,2026-11-10,08:37:00,Check-in Desk 01,Accepted
+BAG-5001,2,2026-11-10,08:52:00,Check-in Desk 12,Under Inspection
+BAG-5001,3,2026-11-10,09:34:00,Main Sorting Area,Accepted
+BAG-5002,1,2026-11-18,12:22:00,Security Belt A,Cleared
+BAG-5002,2,2026-11-18,12:41:00,Check-in Desk 12,Cleared
+BAG-5002,3,2026-11-18,12:57:00,Check-in Desk 01,Loaded
+BAG-5003,1,2026-11-20,17:15:00,Security Belt A,Cleared
+BAG-5004,1,2026-11-12,11:34:00,Security Belt A,Loaded
+BAG-5005,1,2026-11-21,17:05:00,Check-in Desk 12,Under Inspection
+BAG-5005,2,2026-11-21,17:25:00,Security Belt B,Loaded
+BAG-5005,3,2026-11-21,17:52:00,Gate Loading Bay,Under Inspection
+BAG-5006,1,2026-12-01,15:23:00,Main Sorting Area,Cleared
+BAG-5007,1,2026-12-03,21:32:00,Security Belt B,Loaded
+BAG-5007,2,2026-12-03,22:05:00,Check-in Desk 12,Under Inspection
+BAG-5007,3,2026-12-03,22:47:00,Security Belt B,Accepted
+BAG-5008,1,2026-11-24,08:54:00,Main Sorting Area,Cleared
+BAG-5008,2,2026-11-24,09:39:00,Check-in Desk 01,Accepted
+BAG-5008,3,2026-11-24,10:32:00,Main Sorting Area,Cleared
+BAG-5009,1,2026-11-18,15:58:00,Check-in Desk 12,Accepted
+BAG-5009,2,2026-11-18,16:48:00,Security Belt A,Under Inspection
+BAG-5009,3,2026-11-18,17:07:00,Security Belt A,Under Inspection
+BAG-5010,1,2026-11-05,21:13:00,Check-in Desk 12,Accepted
+BAG-5011,1,2026-11-15,20:48:00,Security Belt B,Under Inspection
+BAG-5011,2,2026-11-15,21:32:00,Gate Loading Bay,Under Inspection
+BAG-5011,3,2026-11-15,22:27:00,Security Belt A,Loaded
+BAG-5012,1,2026-11-17,17:32:00,Main Sorting Area,Under Inspection
+BAG-5013,1,2026-11-08,12:42:00,Check-in Desk 12,Cleared
+BAG-5014,1,2026-12-01,20:31:00,Check-in Desk 01,Loaded
+BAG-5015,1,2026-11-09,19:41:00,Security Belt A,Accepted
+BAG-5015,2,2026-11-09,20:06:00,Check-in Desk 12,Under Inspection
+BAG-5016,1,2026-12-01,20:00:00,Check-in Desk 01,Accepted
+BAG-5016,2,2026-12-01,20:51:00,Main Sorting Area,Accepted
+BAG-5017,1,2026-11-09,12:49:00,Check-in Desk 01,Loaded
+BAG-5018,1,2026-11-08,20:17:00,Gate Loading Bay,Accepted
+BAG-5019,1,2026-11-12,15:15:00,Check-in Desk 12,Accepted
+BAG-5019,2,2026-11-12,16:03:00,Check-in Desk 01,Under Inspection
+BAG-5019,3,2026-11-12,16:38:00,Check-in Desk 01,Under Inspection
+BAG-5020,1,2026-11-18,06:26:00,Security Belt B,Under Inspection
+BAG-5021,1,2026-12-01,15:08:00,Main Sorting Area,Cleared
+BAG-5021,2,2026-12-01,15:26:00,Security Belt A,Accepted
+BAG-5021,3,2026-12-01,15:51:00,Security Belt A,Cleared
+BAG-5022,1,2026-11-07,19:47:00,Check-in Desk 01,Under Inspection
+BAG-5022,2,2026-11-07,20:14:00,Security Belt A,Under Inspection
+BAG-5023,1,2026-12-01,15:52:00,Security Belt A,Accepted
+BAG-5023,2,2026-12-01,16:02:00,Security Belt A,Under Inspection
+BAG-5023,3,2026-12-01,16:52:00,Security Belt A,Under Inspection
+BAG-5024,1,2026-11-06,20:32:00,Main Sorting Area,Under Inspection
+BAG-5024,2,2026-11-06,21:09:00,Check-in Desk 12,Accepted
+BAG-5025,1,2026-11-07,16:36:00,Main Sorting Area,Under Inspection
+BAG-5025,2,2026-11-07,17:01:00,Check-in Desk 12,Under Inspection
+BAG-5025,3,2026-11-07,17:37:00,Check-in Desk 01,Under Inspection
+BAG-5026,1,2026-12-01,16:25:00,Check-in Desk 12,Under Inspection
+BAG-5027,1,2026-12-02,16:57:00,Check-in Desk 01,Cleared
+BAG-5027,2,2026-12-02,17:29:00,Gate Loading Bay,Loaded
+BAG-5028,1,2026-12-01,22:56:00,Check-in Desk 01,Accepted
+BAG-5028,2,2026-12-01,23:44:00,Security Belt B,Cleared
+BAG-5028,3,2026-12-02,00:40:00,Security Belt A,Loaded
+BAG-5029,1,2026-11-18,21:44:00,Gate Loading Bay,Under Inspection
+BAG-5029,2,2026-11-18,22:17:00,Security Belt B,Accepted
+BAG-5029,3,2026-11-18,23:09:00,Security Belt A,Cleared
+BAG-5030,1,2026-11-06,09:06:00,Gate Loading Bay,Loaded
+BAG-5031,1,2026-11-08,11:18:00,Gate Loading Bay,Cleared
+BAG-5031,2,2026-11-08,11:57:00,Security Belt B,Loaded
+BAG-5031,3,2026-11-08,12:50:00,Check-in Desk 12,Loaded
+BAG-5032,1,2026-11-13,10:22:00,Check-in Desk 12,Accepted
+BAG-5033,1,2026-11-15,13:20:00,Check-in Desk 12,Under Inspection
+BAG-5033,2,2026-11-15,14:11:00,Gate Loading Bay,Accepted
+BAG-5034,1,2026-11-19,18:33:00,Security Belt B,Cleared
+BAG-5034,2,2026-11-19,19:31:00,Security Belt B,Loaded
+BAG-5035,1,2026-11-08,19:56:00,Gate Loading Bay,Under Inspection
+BAG-5035,2,2026-11-08,20:23:00,Security Belt B,Accepted
+BAG-5035,3,2026-11-08,21:18:00,Security Belt A,Under Inspection
+BAG-5036,1,2026-12-04,15:53:00,Check-in Desk 01,Loaded
+BAG-5036,2,2026-12-04,16:29:00,Security Belt A,Loaded
+BAG-5036,3,2026-12-04,17:05:00,Check-in Desk 01,Under Inspection
+BAG-5037,1,2026-11-09,17:36:00,Main Sorting Area,Under Inspection
+BAG-5037,2,2026-11-09,18:17:00,Check-in Desk 12,Cleared
+BAG-5038,1,2026-12-02,20:18:00,Main Sorting Area,Accepted
+BAG-5038,2,2026-12-02,20:53:00,Main Sorting Area,Accepted
+BAG-5039,1,2026-12-03,18:54:00,Security Belt A,Cleared
+BAG-5040,1,2026-12-04,14:36:00,Check-in Desk 01,Accepted
+BAG-5041,1,2026-11-08,12:38:00,Security Belt B,Cleared
+BAG-5041,2,2026-11-08,13:37:00,Security Belt A,Under Inspection
+BAG-5041,3,2026-11-08,14:25:00,Main Sorting Area,Accepted
+BAG-5042,1,2026-11-10,14:22:00,Check-in Desk 01,Under Inspection
+BAG-5042,2,2026-11-10,14:38:00,Gate Loading Bay,Cleared
+BAG-5042,3,2026-11-10,15:31:00,Main Sorting Area,Accepted
+BAG-5043,1,2026-12-01,07:11:00,Check-in Desk 01,Loaded
+BAG-5043,2,2026-12-01,07:44:00,Gate Loading Bay,Loaded
+BAG-5044,1,2026-11-18,10:41:00,Main Sorting Area,Cleared
+BAG-5044,2,2026-11-18,11:11:00,Check-in Desk 12,Accepted
+BAG-5045,1,2026-12-02,19:56:00,Check-in Desk 12,Cleared
+BAG-5046,1,2026-12-02,16:26:00,Security Belt B,Loaded
+BAG-5047,1,2026-11-05,13:20:00,Gate Loading Bay,Under Inspection
+BAG-5048,1,2026-11-14,17:24:00,Security Belt A,Cleared
+BAG-5048,2,2026-11-14,17:50:00,Check-in Desk 12,Accepted
+BAG-5048,3,2026-11-14,18:46:00,Check-in Desk 12,Cleared
+BAG-5049,1,2026-11-19,22:37:00,Security Belt A,Under Inspection
+BAG-5050,1,2026-12-02,10:48:00,Gate Loading Bay,Loaded
+BAG-5050,2,2026-12-02,11:04:00,Check-in Desk 01,Cleared
+BAG-5050,3,2026-12-02,11:44:00,Security Belt B,Loaded
+BAG-5051,1,2026-11-08,10:14:00,Main Sorting Area,Accepted
+BAG-5051,2,2026-11-08,10:33:00,Check-in Desk 12,Cleared
+BAG-5052,1,2026-12-03,12:29:00,Main Sorting Area,Loaded
+BAG-5052,2,2026-12-03,12:58:00,Main Sorting Area,Accepted
+BAG-5053,1,2026-12-01,09:00:00,Check-in Desk 01,Under Inspection
+BAG-5054,1,2026-12-05,19:24:00,Check-in Desk 01,Under Inspection
+BAG-5054,2,2026-12-05,19:50:00,Gate Loading Bay,Under Inspection
+BAG-5054,3,2026-12-05,20:27:00,Check-in Desk 01,Under Inspection
+BAG-5055,1,2026-12-01,09:47:00,Security Belt B,Cleared
+BAG-5055,2,2026-12-01,10:41:00,Security Belt B,Cleared
+BAG-5056,1,2026-11-07,23:11:00,Check-in Desk 01,Accepted
+BAG-5056,2,2026-11-07,23:35:00,Gate Loading Bay,Accepted
+BAG-5056,3,2026-11-08,00:33:00,Gate Loading Bay,Cleared
+BAG-5057,1,2026-11-08,06:56:00,Check-in Desk 01,Loaded
+BAG-5057,2,2026-11-08,07:28:00,Security Belt B,Cleared
+BAG-5057,3,2026-11-08,07:58:00,Gate Loading Bay,Accepted
+BAG-5058,1,2026-11-24,16:00:00,Security Belt A,Cleared
+BAG-5058,2,2026-11-24,16:30:00,Check-in Desk 01,Loaded
+BAG-5059,1,2026-12-01,06:23:00,Check-in Desk 01,Under Inspection
+BAG-5059,2,2026-12-01,06:50:00,Main Sorting Area,Under Inspection
+BAG-5059,3,2026-12-01,07:18:00,Security Belt B,Loaded
+BAG-5060,1,2026-11-12,05:32:00,Security Belt B,Accepted
+BAG-5061,1,2026-11-07,10:24:00,Main Sorting Area,Under Inspection
+BAG-5062,1,2026-12-02,11:42:00,Check-in Desk 01,Cleared
+BAG-5062,2,2026-12-02,12:38:00,Security Belt A,Loaded
+BAG-5062,3,2026-12-02,12:57:00,Security Belt B,Loaded
+BAG-5063,1,2026-11-08,16:44:00,Security Belt B,Accepted
+BAG-5064,1,2026-12-02,21:32:00,Security Belt A,Accepted
+BAG-5064,2,2026-12-02,22:10:00,Check-in Desk 01,Loaded
+BAG-5064,3,2026-12-02,22:20:00,Gate Loading Bay,Under Inspection
+BAG-5065,1,2026-12-04,09:53:00,Main Sorting Area,Loaded
+BAG-5065,2,2026-12-04,10:23:00,Gate Loading Bay,Loaded
+BAG-5066,1,2026-12-01,06:58:00,Gate Loading Bay,Accepted
+BAG-5067,1,2026-11-14,11:03:00,Security Belt B,Under Inspection
+BAG-5067,2,2026-11-14,11:28:00,Main Sorting Area,Loaded
+BAG-5068,1,2026-11-07,11:02:00,Check-in Desk 12,Under Inspection
+BAG-5068,2,2026-11-07,11:41:00,Gate Loading Bay,Cleared
+BAG-5069,1,2026-12-04,13:32:00,Main Sorting Area,Cleared
+BAG-5069,2,2026-12-04,14:22:00,Security Belt B,Cleared
+BAG-5070,1,2026-11-30,14:43:00,Gate Loading Bay,Cleared
+BAG-5070,2,2026-11-30,14:54:00,Gate Loading Bay,Loaded
+BAG-5070,3,2026-11-30,15:21:00,Check-in Desk 01,Accepted
+BAG-5071,1,2026-11-06,21:28:00,Gate Loading Bay,Under Inspection
+BAG-5071,2,2026-11-06,22:18:00,Check-in Desk 01,Accepted
+BAG-5071,3,2026-11-06,22:47:00,Security Belt B,Accepted
+BAG-5072,1,2026-11-21,16:33:00,Main Sorting Area,Cleared
+BAG-5073,1,2026-12-03,22:01:00,Check-in Desk 01,Loaded
+BAG-5073,2,2026-12-03,22:15:00,Check-in Desk 12,Under Inspection
+BAG-5073,3,2026-12-03,23:08:00,Gate Loading Bay,Loaded
+BAG-5074,1,2026-11-05,16:53:00,Gate Loading Bay,Cleared
+BAG-5074,2,2026-11-05,17:40:00,Security Belt B,Cleared
+BAG-5075,1,2026-11-09,13:24:00,Gate Loading Bay,Cleared
+BAG-5075,2,2026-11-09,14:15:00,Security Belt B,Accepted
+BAG-5075,3,2026-11-09,14:33:00,Check-in Desk 01,Accepted
+BAG-5076,1,2026-11-30,20:33:00,Gate Loading Bay,Loaded
+BAG-5076,2,2026-11-30,21:20:00,Gate Loading Bay,Under Inspection
+BAG-5077,1,2026-11-23,09:23:00,Check-in Desk 12,Cleared
+BAG-5077,2,2026-11-23,09:39:00,Gate Loading Bay,Cleared
+BAG-5078,1,2026-11-12,16:52:00,Check-in Desk 12,Accepted
+BAG-5079,1,2026-11-19,15:46:00,Check-in Desk 12,Accepted
+BAG-5080,1,2026-11-08,09:47:00,Check-in Desk 12,Cleared
+BAG-5081,1,2026-11-09,11:08:00,Security Belt A,Accepted
+BAG-5081,2,2026-11-09,11:46:00,Main Sorting Area,Under Inspection
+BAG-5082,1,2026-11-12,07:23:00,Check-in Desk 01,Loaded
+BAG-5082,2,2026-11-12,08:18:00,Security Belt B,Accepted
+BAG-5083,1,2026-12-03,15:58:00,Security Belt A,Loaded
+BAG-5083,2,2026-12-03,16:40:00,Main Sorting Area,Loaded
+BAG-5083,3,2026-12-03,16:56:00,Gate Loading Bay,Accepted
+BAG-5084,1,2026-12-01,22:50:00,Security Belt B,Accepted
+BAG-5084,2,2026-12-01,23:20:00,Security Belt B,Cleared
+BAG-5085,1,2026-11-13,13:46:00,Gate Loading Bay,Cleared
+BAG-5085,2,2026-11-13,14:04:00,Main Sorting Area,Accepted
+BAG-5086,1,2026-11-12,23:18:00,Security Belt A,Cleared
+BAG-5086,2,2026-11-12,23:34:00,Main Sorting Area,Under Inspection
+BAG-5087,1,2026-12-03,21:01:00,Check-in Desk 12,Loaded
+BAG-5087,2,2026-12-03,21:46:00,Main Sorting Area,Accepted
+BAG-5088,1,2026-11-13,13:10:00,Check-in Desk 12,Under Inspection
+BAG-5088,2,2026-11-13,13:56:00,Gate Loading Bay,Loaded
+BAG-5089,1,2026-11-10,09:33:00,Security Belt A,Cleared
+BAG-5090,1,2026-11-07,07:38:00,Gate Loading Bay,Loaded
+BAG-5090,2,2026-11-07,08:19:00,Main Sorting Area,Loaded
+BAG-5091,1,2026-12-02,14:07:00,Security Belt A,Accepted
+BAG-5091,2,2026-12-02,14:31:00,Security Belt B,Accepted
+BAG-5091,3,2026-12-02,14:41:00,Check-in Desk 12,Cleared
+BAG-5092,1,2026-12-03,09:48:00,Security Belt B,Under Inspection
+BAG-5093,1,2026-11-07,23:09:00,Check-in Desk 01,Cleared
+BAG-5094,1,2026-12-01,19:34:00,Security Belt B,Cleared
+BAG-5095,1,2026-11-20,18:57:00,Security Belt A,Under Inspection
+BAG-5095,2,2026-11-20,19:28:00,Check-in Desk 12,Accepted
+BAG-5096,1,2026-12-01,08:34:00,Security Belt A,Under Inspection
+BAG-5097,1,2026-11-09,09:30:00,Check-in Desk 12,Loaded
+BAG-5097,2,2026-11-09,09:44:00,Security Belt B,Loaded
+BAG-5097,3,2026-11-09,10:34:00,Security Belt A,Cleared
+BAG-5098,1,2026-11-06,06:58:00,Check-in Desk 01,Accepted
+BAG-5098,2,2026-11-06,07:47:00,Main Sorting Area,Loaded
+BAG-5099,1,2026-12-02,22:38:00,Check-in Desk 01,Cleared
+BAG-5100,1,2026-12-01,07:48:00,Security Belt A,Loaded
+BAG-5100,2,2026-12-01,08:24:00,Security Belt A,Accepted
+BAG-5101,1,2026-11-10,15:56:00,Gate Loading Bay,Under Inspection
+BAG-5101,2,2026-11-10,16:27:00,Check-in Desk 01,Under Inspection
+BAG-5102,1,2026-11-11,15:37:00,Gate Loading Bay,Accepted
+BAG-5103,1,2026-11-10,18:52:00,Check-in Desk 12,Under Inspection
+BAG-5103,2,2026-11-10,19:11:00,Check-in Desk 01,Cleared
+BAG-5104,1,2026-11-24,21:54:00,Main Sorting Area,Under Inspection
+BAG-5105,1,2026-12-03,19:28:00,Gate Loading Bay,Loaded
+BAG-5105,2,2026-12-03,19:52:00,Main Sorting Area,Under Inspection
+BAG-5105,3,2026-12-03,20:21:00,Security Belt B,Under Inspection
+BAG-5106,1,2026-12-02,20:33:00,Check-in Desk 12,Cleared
+BAG-5107,1,2026-11-17,21:12:00,Check-in Desk 12,Loaded
+BAG-5107,2,2026-11-17,21:27:00,Check-in Desk 12,Loaded
+BAG-5108,1,2026-11-07,06:18:00,Check-in Desk 12,Accepted
+BAG-5109,1,2026-11-08,09:10:00,Security Belt B,Accepted
+BAG-5109,2,2026-11-08,09:25:00,Check-in Desk 01,Cleared
+BAG-5109,3,2026-11-08,09:48:00,Check-in Desk 12,Loaded
+BAG-5110,1,2026-12-01,14:32:00,Security Belt B,Accepted
+BAG-5111,1,2026-12-01,21:51:00,Check-in Desk 12,Accepted
+BAG-5111,2,2026-12-01,22:34:00,Security Belt A,Accepted
+BAG-5111,3,2026-12-01,23:17:00,Main Sorting Area,Accepted
+BAG-5112,1,2026-11-11,20:32:00,Check-in Desk 12,Accepted
+BAG-5113,1,2026-11-13,15:55:00,Gate Loading Bay,Under Inspection
+BAG-5113,2,2026-11-13,16:13:00,Check-in Desk 01,Loaded
+BAG-5113,3,2026-11-13,16:25:00,Security Belt A,Under Inspection
+BAG-5114,1,2026-12-03,11:58:00,Gate Loading Bay,Under Inspection
+BAG-5115,1,2026-11-18,16:57:00,Security Belt B,Loaded
+BAG-5115,2,2026-11-18,17:28:00,Check-in Desk 12,Loaded
+BAG-5116,1,2026-11-13,20:51:00,Main Sorting Area,Cleared
+BAG-5116,2,2026-11-13,21:21:00,Check-in Desk 01,Accepted
+BAG-5116,3,2026-11-13,21:51:00,Gate Loading Bay,Cleared
+BAG-5117,1,2026-12-02,20:22:00,Security Belt A,Accepted
+BAG-5117,2,2026-12-02,20:36:00,Gate Loading Bay,Loaded
+BAG-5117,3,2026-12-02,21:09:00,Main Sorting Area,Under Inspection
+BAG-5118,1,2026-11-08,10:31:00,Check-in Desk 01,Under Inspection
+BAG-5118,2,2026-11-08,11:24:00,Security Belt B,Cleared
+BAG-5119,1,2026-11-13,19:11:00,Gate Loading Bay,Under Inspection
+BAG-5120,1,2026-12-02,22:13:00,Gate Loading Bay,Loaded
+BAG-5120,2,2026-12-02,22:35:00,Check-in Desk 01,Under Inspection
+BAG-5120,3,2026-12-02,22:49:00,Security Belt B,Under Inspection
+BAG-5121,1,2026-12-01,19:55:00,Gate Loading Bay,Under Inspection
+BAG-5122,1,2026-11-19,21:48:00,Main Sorting Area,Cleared
+BAG-5123,1,2026-12-02,23:01:00,Check-in Desk 01,Under Inspection
+BAG-5123,2,2026-12-02,23:31:00,Gate Loading Bay,Accepted
+BAG-5124,1,2026-11-22,19:43:00,Check-in Desk 01,Under Inspection
+BAG-5124,2,2026-11-22,20:12:00,Check-in Desk 12,Under Inspection
+BAG-5124,3,2026-11-22,20:42:00,Gate Loading Bay,Under Inspection
+BAG-5125,1,2026-12-04,21:59:00,Main Sorting Area,Accepted
+BAG-5125,2,2026-12-04,22:41:00,Gate Loading Bay,Under Inspection
+BAG-5125,3,2026-12-04,23:28:00,Main Sorting Area,Under Inspection
+BAG-5126,1,2026-11-17,15:36:00,Main Sorting Area,Accepted
+BAG-5126,2,2026-11-17,16:17:00,Gate Loading Bay,Cleared
+BAG-5126,3,2026-11-17,17:08:00,Security Belt A,Loaded
+BAG-5127,1,2026-11-15,18:10:00,Security Belt B,Under Inspection
+BAG-5127,2,2026-11-15,18:41:00,Main Sorting Area,Under Inspection
+BAG-5128,1,2026-11-13,16:09:00,Check-in Desk 01,Cleared
+BAG-5129,1,2026-12-02,12:35:00,Security Belt A,Cleared
+BAG-5130,1,2026-11-07,11:20:00,Main Sorting Area,Loaded
+BAG-5131,1,2026-12-01,11:40:00,Check-in Desk 01,Loaded
+BAG-5131,2,2026-12-01,11:58:00,Security Belt A,Cleared
+BAG-5131,3,2026-12-01,12:56:00,Security Belt B,Cleared
+BAG-5132,1,2026-11-09,17:38:00,Main Sorting Area,Cleared
+BAG-5132,2,2026-11-09,18:27:00,Gate Loading Bay,Accepted
+BAG-5132,3,2026-11-09,18:45:00,Check-in Desk 01,Loaded
+BAG-5133,1,2026-11-30,15:42:00,Check-in Desk 12,Cleared
+BAG-5134,1,2026-11-23,22:34:00,Gate Loading Bay,Cleared
+BAG-5134,2,2026-11-23,23:21:00,Security Belt A,Loaded
+BAG-5135,1,2026-11-06,15:14:00,Gate Loading Bay,Accepted
+BAG-5135,2,2026-11-06,16:02:00,Security Belt B,Cleared
+BAG-5135,3,2026-11-06,16:53:00,Main Sorting Area,Under Inspection
+BAG-5136,1,2026-11-21,07:39:00,Check-in Desk 01,Under Inspection
+BAG-5136,2,2026-11-21,07:50:00,Security Belt B,Cleared
+BAG-5136,3,2026-11-21,08:26:00,Check-in Desk 12,Loaded
+BAG-5137,1,2026-12-01,12:25:00,Main Sorting Area,Loaded
+BAG-5137,2,2026-12-01,12:55:00,Check-in Desk 12,Loaded
+BAG-5137,3,2026-12-01,13:39:00,Security Belt A,Cleared
+BAG-5138,1,2026-12-01,14:44:00,Security Belt A,Under Inspection
+BAG-5138,2,2026-12-01,15:38:00,Gate Loading Bay,Loaded
+BAG-5139,1,2026-11-11,21:29:00,Check-in Desk 12,Cleared
+BAG-5139,2,2026-11-11,21:41:00,Security Belt A,Accepted
+BAG-5140,1,2026-11-30,19:46:00,Main Sorting Area,Under Inspection
+BAG-5141,1,2026-11-10,07:08:00,Check-in Desk 12,Accepted
+BAG-5142,1,2026-11-17,11:36:00,Check-in Desk 01,Accepted
+BAG-5142,2,2026-11-17,12:27:00,Main Sorting Area,Under Inspection
+BAG-5143,1,2026-11-08,06:36:00,Gate Loading Bay,Cleared
+BAG-5143,2,2026-11-08,06:48:00,Check-in Desk 01,Cleared
+BAG-5144,1,2026-12-01,09:09:00,Security Belt A,Under Inspection
+BAG-5144,2,2026-12-01,09:26:00,Security Belt A,Under Inspection
+BAG-5144,3,2026-12-01,10:22:00,Security Belt B,Cleared
+BAG-5145,1,2026-12-01,10:50:00,Security Belt B,Loaded
+BAG-5145,2,2026-12-01,11:32:00,Security Belt A,Accepted
+BAG-5145,3,2026-12-01,12:07:00,Gate Loading Bay,Accepted
+BAG-5146,1,2026-11-07,10:43:00,Security Belt A,Cleared
+BAG-5146,2,2026-11-07,11:12:00,Main Sorting Area,Accepted
+BAG-5147,1,2026-11-16,16:57:00,Gate Loading Bay,Cleared
+BAG-5147,2,2026-11-16,17:51:00,Check-in Desk 01,Cleared
+BAG-5147,3,2026-11-16,18:24:00,Main Sorting Area,Under Inspection
+BAG-5148,1,2026-11-12,10:30:00,Security Belt B,Under Inspection
+BAG-5148,2,2026-11-12,11:28:00,Check-in Desk 12,Accepted
+BAG-5148,3,2026-11-12,12:11:00,Security Belt B,Cleared
+BAG-5149,1,2026-11-07,08:23:00,Gate Loading Bay,Loaded
+BAG-5149,2,2026-11-07,08:38:00,Main Sorting Area,Loaded
+BAG-5149,3,2026-11-07,08:51:00,Security Belt B,Under Inspection
+BAG-5150,1,2026-11-15,19:11:00,Check-in Desk 01,Under Inspection
+BAG-5150,2,2026-11-15,19:58:00,Check-in Desk 01,Accepted
+BAG-5151,1,2026-11-09,16:36:00,Check-in Desk 12,Under Inspection
+BAG-5151,2,2026-11-09,17:35:00,Gate Loading Bay,Loaded
+BAG-5152,1,2026-11-09,18:06:00,Main Sorting Area,Loaded
+BAG-5153,1,2026-11-29,09:49:00,Check-in Desk 12,Under Inspection
+BAG-5153,2,2026-11-29,10:28:00,Security Belt A,Under Inspection
+BAG-5153,3,2026-11-29,10:55:00,Check-in Desk 12,Accepted
+BAG-5154,1,2026-11-20,18:53:00,Gate Loading Bay,Accepted
+BAG-5154,2,2026-11-20,19:18:00,Gate Loading Bay,Accepted
+BAG-5154,3,2026-11-20,19:53:00,Security Belt B,Under Inspection
+BAG-5155,1,2026-11-13,11:29:00,Check-in Desk 12,Under Inspection
+BAG-5156,1,2026-11-18,15:02:00,Gate Loading Bay,Loaded
+BAG-5157,1,2026-11-13,16:09:00,Security Belt A,Under Inspection
+BAG-5158,1,2026-12-02,07:36:00,Check-in Desk 01,Loaded
+BAG-5158,2,2026-12-02,08:09:00,Check-in Desk 01,Under Inspection
+BAG-5159,1,2026-11-09,14:16:00,Security Belt A,Accepted
+BAG-5160,1,2026-11-24,11:45:00,Security Belt A,Cleared
+BAG-5161,1,2026-11-13,20:26:00,Security Belt B,Cleared
+BAG-5162,1,2026-12-03,16:56:00,Main Sorting Area,Loaded
+BAG-5163,1,2026-11-19,10:06:00,Gate Loading Bay,Cleared
+BAG-5163,2,2026-11-19,10:32:00,Security Belt B,Loaded
+BAG-5163,3,2026-11-19,11:11:00,Check-in Desk 12,Cleared
+BAG-5164,1,2026-11-09,10:21:00,Check-in Desk 12,Under Inspection
+BAG-5165,1,2026-12-05,09:10:00,Main Sorting Area,Loaded
+BAG-5166,1,2026-11-17,05:46:00,Main Sorting Area,Under Inspection
+BAG-5167,1,2026-12-03,12:09:00,Main Sorting Area,Under Inspection
+BAG-5167,2,2026-12-03,13:03:00,Check-in Desk 12,Cleared
+BAG-5168,1,2026-11-07,07:10:00,Gate Loading Bay,Under Inspection
+BAG-5168,2,2026-11-07,07:25:00,Security Belt B,Loaded
+BAG-5168,3,2026-11-07,08:16:00,Security Belt A,Accepted
+BAG-5169,1,2026-12-01,07:01:00,Gate Loading Bay,Accepted
+BAG-5169,2,2026-12-01,07:22:00,Security Belt A,Accepted
+BAG-5169,3,2026-12-01,07:45:00,Main Sorting Area,Under Inspection
+BAG-5170,1,2026-11-18,17:58:00,Gate Loading Bay,Under Inspection
+BAG-5170,2,2026-11-18,18:58:00,Gate Loading Bay,Accepted
+BAG-5171,1,2026-11-18,16:59:00,Main Sorting Area,Loaded
+BAG-5171,2,2026-11-18,17:58:00,Security Belt A,Accepted
+BAG-5171,3,2026-11-18,18:48:00,Security Belt A,Loaded
+BAG-5172,1,2026-11-08,12:58:00,Check-in Desk 12,Accepted
+BAG-5172,2,2026-11-08,13:13:00,Security Belt A,Under Inspection
+BAG-5172,3,2026-11-08,13:47:00,Gate Loading Bay,Under Inspection
+BAG-5173,1,2026-12-01,18:28:00,Security Belt A,Accepted
+BAG-5173,2,2026-12-01,18:46:00,Check-in Desk 01,Under Inspection
+BAG-5174,1,2026-11-08,19:55:00,Security Belt A,Loaded
+BAG-5174,2,2026-11-08,20:29:00,Check-in Desk 01,Under Inspection
+BAG-5175,1,2026-12-01,21:34:00,Check-in Desk 01,Under Inspection
+BAG-5175,2,2026-12-01,22:11:00,Security Belt A,Loaded
+BAG-5176,1,2026-11-09,20:16:00,Check-in Desk 12,Cleared
+BAG-5176,2,2026-11-09,20:26:00,Security Belt B,Cleared
+BAG-5177,1,2026-11-17,18:18:00,Gate Loading Bay,Under Inspection
+BAG-5177,2,2026-11-17,18:58:00,Security Belt A,Under Inspection
+BAG-5178,1,2026-11-08,15:47:00,Main Sorting Area,Under Inspection
+BAG-5178,2,2026-11-08,16:34:00,Main Sorting Area,Under Inspection
+BAG-5179,1,2026-12-01,22:53:00,Security Belt B,Under Inspection
+BAG-5179,2,2026-12-01,23:43:00,Security Belt A,Under Inspection
+BAG-5180,1,2026-11-08,10:27:00,Gate Loading Bay,Loaded
+BAG-5180,2,2026-11-08,11:11:00,Check-in Desk 01,Cleared
+BAG-5180,3,2026-11-08,12:05:00,Main Sorting Area,Accepted
+BAG-5181,1,2026-11-12,12:46:00,Check-in Desk 01,Accepted
+BAG-5181,2,2026-11-12,13:12:00,Check-in Desk 12,Under Inspection
+BAG-5182,1,2026-11-16,17:13:00,Security Belt B,Accepted
+BAG-5183,1,2026-11-09,10:10:00,Check-in Desk 01,Loaded
+BAG-5183,2,2026-11-09,11:06:00,Gate Loading Bay,Loaded
+BAG-5184,1,2026-11-16,07:50:00,Gate Loading Bay,Under Inspection
+BAG-5184,2,2026-11-16,08:33:00,Check-in Desk 12,Under Inspection
+BAG-5184,3,2026-11-16,09:04:00,Main Sorting Area,Loaded
+BAG-5185,1,2026-11-23,13:42:00,Main Sorting Area,Under Inspection
+BAG-5186,1,2026-12-04,19:06:00,Security Belt A,Cleared
+BAG-5186,2,2026-12-04,19:28:00,Security Belt B,Accepted
+BAG-5186,3,2026-12-04,19:54:00,Gate Loading Bay,Loaded
+BAG-5187,1,2026-11-15,16:40:00,Security Belt A,Accepted
+BAG-5187,2,2026-11-15,17:33:00,Check-in Desk 12,Cleared
+BAG-5187,3,2026-11-15,17:50:00,Check-in Desk 12,Cleared
+BAG-5188,1,2026-12-01,10:51:00,Security Belt B,Under Inspection
+BAG-5188,2,2026-12-01,11:36:00,Check-in Desk 12,Loaded
+BAG-5189,1,2026-11-23,09:33:00,Check-in Desk 12,Loaded
+BAG-5189,2,2026-11-23,10:18:00,Main Sorting Area,Loaded
+BAG-5190,1,2026-12-02,20:57:00,Security Belt A,Under Inspection
+BAG-5190,2,2026-12-02,21:41:00,Security Belt A,Under Inspection
+BAG-5191,1,2026-11-18,20:38:00,Main Sorting Area,Under Inspection
+BAG-5191,2,2026-11-18,21:15:00,Check-in Desk 01,Under Inspection
+BAG-5191,3,2026-11-18,21:44:00,Check-in Desk 01,Loaded
+BAG-5192,1,2026-11-13,16:47:00,Gate Loading Bay,Cleared
+BAG-5192,2,2026-11-13,17:42:00,Main Sorting Area,Loaded
+BAG-5192,3,2026-11-13,18:02:00,Main Sorting Area,Under Inspection
+BAG-5193,1,2026-11-23,11:28:00,Security Belt A,Cleared
+BAG-5193,2,2026-11-23,12:10:00,Gate Loading Bay,Accepted
+BAG-5193,3,2026-11-23,12:28:00,Security Belt B,Accepted
+BAG-5194,1,2026-11-18,09:34:00,Main Sorting Area,Cleared
+BAG-5194,2,2026-11-18,10:24:00,Security Belt B,Loaded
+BAG-5195,1,2026-12-04,07:30:00,Main Sorting Area,Accepted
+BAG-5195,2,2026-12-04,08:29:00,Gate Loading Bay,Accepted
+BAG-5196,1,2026-11-08,19:57:00,Security Belt A,Cleared
+BAG-5196,2,2026-11-08,20:28:00,Main Sorting Area,Under Inspection
+BAG-5197,1,2026-11-07,20:50:00,Security Belt B,Loaded
+BAG-5198,1,2026-11-20,18:48:00,Security Belt A,Accepted
+BAG-5198,2,2026-11-20,19:21:00,Gate Loading Bay,Under Inspection
+BAG-5198,3,2026-11-20,19:34:00,Security Belt B,Cleared
+BAG-5199,1,2026-11-07,13:32:00,Check-in Desk 12,Loaded
+BAG-5200,1,2026-11-24,06:04:00,Check-in Desk 01,Accepted
+BAG-5201,1,2026-12-01,16:13:00,Main Sorting Area,Accepted
+BAG-5202,1,2026-12-01,11:38:00,Security Belt B,Under Inspection
+BAG-5202,2,2026-12-01,11:53:00,Check-in Desk 01,Under Inspection
+BAG-5202,3,2026-12-01,12:51:00,Check-in Desk 01,Loaded
+BAG-5203,1,2026-12-02,19:18:00,Main Sorting Area,Cleared
+BAG-5203,2,2026-12-02,20:17:00,Gate Loading Bay,Accepted
+BAG-5203,3,2026-12-02,21:09:00,Security Belt A,Under Inspection
+BAG-5204,1,2026-11-17,21:32:00,Check-in Desk 12,Loaded
+BAG-5204,2,2026-11-17,22:22:00,Main Sorting Area,Accepted
+BAG-5205,1,2026-11-06,06:23:00,Check-in Desk 12,Loaded
+BAG-5205,2,2026-11-06,07:22:00,Check-in Desk 01,Accepted
+BAG-5205,3,2026-11-06,08:09:00,Check-in Desk 01,Accepted
+BAG-5206,1,2026-12-02,11:35:00,Check-in Desk 01,Under Inspection
+BAG-5206,2,2026-12-02,12:02:00,Check-in Desk 01,Cleared
+BAG-5206,3,2026-12-02,12:17:00,Main Sorting Area,Under Inspection
+BAG-5207,1,2026-11-14,22:55:00,Check-in Desk 01,Loaded
+BAG-5208,1,2026-12-03,19:41:00,Security Belt A,Cleared
+BAG-5209,1,2026-12-03,16:42:00,Main Sorting Area,Accepted
+BAG-5209,2,2026-12-03,17:08:00,Gate Loading Bay,Accepted
+BAG-5210,1,2026-12-02,19:56:00,Check-in Desk 01,Accepted
+BAG-5211,1,2026-11-19,21:19:00,Check-in Desk 12,Accepted
+BAG-5211,2,2026-11-19,22:04:00,Gate Loading Bay,Loaded
+BAG-5212,1,2026-12-03,15:57:00,Gate Loading Bay,Accepted
+BAG-5213,1,2026-12-03,12:15:00,Main Sorting Area,Loaded
+BAG-5213,2,2026-12-03,12:25:00,Security Belt A,Under Inspection
+BAG-5214,1,2026-11-18,14:59:00,Check-in Desk 12,Under Inspection
+BAG-5214,2,2026-11-18,15:09:00,Security Belt B,Accepted
+BAG-5214,3,2026-11-18,15:33:00,Main Sorting Area,Cleared
+BAG-5215,1,2026-11-18,06:13:00,Check-in Desk 12,Loaded
+BAG-5216,1,2026-12-02,06:48:00,Security Belt B,Accepted
+BAG-5216,2,2026-12-02,07:35:00,Check-in Desk 01,Under Inspection
+BAG-5216,3,2026-12-02,08:25:00,Security Belt B,Accepted
+BAG-5217,1,2026-11-10,07:42:00,Security Belt A,Cleared
+BAG-5217,2,2026-11-10,08:20:00,Security Belt A,Under Inspection
+BAG-5217,3,2026-11-10,08:34:00,Check-in Desk 12,Under Inspection
+BAG-5218,1,2026-11-12,08:59:00,Security Belt A,Under Inspection
+BAG-5219,1,2026-11-08,15:15:00,Check-in Desk 12,Accepted
+BAG-5220,1,2026-11-07,13:05:00,Security Belt B,Under Inspection
+BAG-5221,1,2026-11-23,19:35:00,Security Belt A,Accepted
+BAG-5222,1,2026-11-07,13:31:00,Check-in Desk 01,Accepted
+BAG-5223,1,2026-11-13,06:47:00,Check-in Desk 12,Under Inspection
+BAG-5224,1,2026-11-08,14:21:00,Main Sorting Area,Loaded
+BAG-5224,2,2026-11-08,14:34:00,Check-in Desk 01,Cleared
+BAG-5225,1,2026-12-02,10:17:00,Security Belt B,Loaded
+BAG-5225,2,2026-12-02,10:49:00,Main Sorting Area,Cleared
+BAG-5225,3,2026-12-02,11:23:00,Security Belt A,Under Inspection
+BAG-5226,1,2026-12-03,15:39:00,Check-in Desk 12,Accepted
+BAG-5226,2,2026-12-03,16:04:00,Gate Loading Bay,Under Inspection
+BAG-5226,3,2026-12-03,16:31:00,Main Sorting Area,Accepted
+BAG-5227,1,2026-11-19,17:41:00,Gate Loading Bay,Cleared
+BAG-5227,2,2026-11-19,18:27:00,Main Sorting Area,Under Inspection
+BAG-5227,3,2026-11-19,19:13:00,Check-in Desk 12,Loaded
+BAG-5228,1,2026-11-21,14:58:00,Security Belt B,Accepted
+BAG-5229,1,2026-11-11,11:34:00,Main Sorting Area,Under Inspection
+BAG-5230,1,2026-11-15,21:59:00,Security Belt A,Under Inspection
+BAG-5230,2,2026-11-15,22:19:00,Gate Loading Bay,Loaded
+BAG-5231,1,2026-11-06,21:26:00,Gate Loading Bay,Cleared
+BAG-5231,2,2026-11-06,21:44:00,Check-in Desk 12,Accepted
+BAG-5232,1,2026-12-01,17:19:00,Security Belt A,Accepted
+BAG-5232,2,2026-12-01,17:44:00,Security Belt A,Cleared
+BAG-5233,1,2026-12-03,07:56:00,Check-in Desk 01,Accepted
+BAG-5233,2,2026-12-03,08:09:00,Security Belt B,Loaded
+BAG-5234,1,2026-11-07,18:55:00,Main Sorting Area,Under Inspection
+BAG-5235,1,2026-11-20,19:31:00,Check-in Desk 12,Loaded
+BAG-5236,1,2026-11-12,07:37:00,Check-in Desk 12,Accepted
+BAG-5236,2,2026-11-12,07:53:00,Security Belt A,Under Inspection
+BAG-5236,3,2026-11-12,08:15:00,Security Belt B,Cleared
+BAG-5237,1,2026-11-13,15:03:00,Check-in Desk 01,Loaded
+BAG-5238,1,2026-11-10,15:25:00,Check-in Desk 01,Cleared
+BAG-5239,1,2026-11-23,21:19:00,Security Belt A,Under Inspection
+BAG-5239,2,2026-11-23,21:57:00,Check-in Desk 01,Cleared
+BAG-5240,1,2026-11-11,20:22:00,Security Belt A,Loaded
+BAG-5241,1,2026-11-18,12:29:00,Check-in Desk 01,Loaded
+BAG-5241,2,2026-11-18,13:24:00,Check-in Desk 01,Under Inspection
+BAG-5242,1,2026-12-03,19:30:00,Gate Loading Bay,Loaded
+BAG-5242,2,2026-12-03,19:52:00,Gate Loading Bay,Under Inspection
+BAG-5243,1,2026-11-18,14:13:00,Security Belt B,Accepted
+BAG-5243,2,2026-11-18,15:13:00,Gate Loading Bay,Loaded
+BAG-5244,1,2026-11-08,18:47:00,Security Belt B,Cleared
+BAG-5244,2,2026-11-08,19:21:00,Gate Loading Bay,Loaded
+BAG-5244,3,2026-11-08,20:07:00,Main Sorting Area,Loaded
+BAG-5245,1,2026-11-19,11:01:00,Gate Loading Bay,Under Inspection
+BAG-5245,2,2026-11-19,11:14:00,Gate Loading Bay,Loaded
+BAG-5246,1,2026-11-13,16:18:00,Security Belt A,Loaded
+BAG-5247,1,2026-11-19,14:18:00,Check-in Desk 01,Under Inspection
+BAG-5247,2,2026-11-19,14:32:00,Security Belt A,Loaded
+BAG-5247,3,2026-11-19,14:50:00,Main Sorting Area,Accepted
+BAG-5248,1,2026-11-12,11:37:00,Security Belt A,Cleared
+BAG-5248,2,2026-11-12,12:16:00,Main Sorting Area,Loaded
+BAG-5248,3,2026-11-12,13:06:00,Check-in Desk 01,Accepted
+BAG-5249,1,2026-11-09,17:05:00,Security Belt A,Accepted
+BAG-5249,2,2026-11-09,17:33:00,Check-in Desk 01,Loaded
+BAG-5250,1,2026-11-09,10:26:00,Gate Loading Bay,Accepted
+BAG-5250,2,2026-11-09,11:06:00,Check-in Desk 12,Under Inspection
+BAG-5250,3,2026-11-09,11:54:00,Check-in Desk 01,Under Inspection
+BAG-5251,1,2026-12-02,15:09:00,Security Belt A,Loaded
+BAG-5252,1,2026-11-21,08:31:00,Security Belt A,Cleared
+BAG-5253,1,2026-12-02,14:05:00,Gate Loading Bay,Cleared
+BAG-5253,2,2026-12-02,14:58:00,Check-in Desk 12,Accepted
+BAG-5253,3,2026-12-02,15:49:00,Security Belt B,Cleared
+BAG-5254,1,2026-12-02,19:40:00,Check-in Desk 12,Loaded
+BAG-5254,2,2026-12-02,20:32:00,Security Belt A,Cleared
+BAG-5254,3,2026-12-02,20:52:00,Gate Loading Bay,Under Inspection
+BAG-5255,1,2026-11-11,09:00:00,Check-in Desk 12,Cleared
+BAG-5255,2,2026-11-11,09:24:00,Gate Loading Bay,Cleared
+BAG-5255,3,2026-11-11,10:00:00,Security Belt A,Cleared
+BAG-5256,1,2026-12-02,15:27:00,Check-in Desk 01,Loaded
+BAG-5257,1,2026-11-29,15:31:00,Security Belt B,Under Inspection
+BAG-5257,2,2026-11-29,16:01:00,Gate Loading Bay,Under Inspection
+BAG-5258,1,2026-11-12,20:53:00,Check-in Desk 12,Under Inspection
+BAG-5258,2,2026-11-12,21:34:00,Check-in Desk 01,Under Inspection
+BAG-5259,1,2026-11-15,19:29:00,Check-in Desk 12,Cleared
+BAG-5260,1,2026-12-03,15:47:00,Security Belt A,Under Inspection
+BAG-5260,2,2026-12-03,16:03:00,Security Belt B,Cleared
+BAG-5260,3,2026-12-03,16:23:00,Check-in Desk 01,Accepted
+BAG-5261,1,2026-11-30,15:17:00,Check-in Desk 12,Under Inspection
+BAG-5261,2,2026-11-30,15:52:00,Check-in Desk 01,Under Inspection
+BAG-5262,1,2026-11-08,09:41:00,Main Sorting Area,Accepted
+BAG-5262,2,2026-11-08,10:29:00,Check-in Desk 01,Accepted
+BAG-5262,3,2026-11-08,11:20:00,Check-in Desk 01,Accepted
+BAG-5263,1,2026-12-01,09:04:00,Check-in Desk 12,Accepted
+BAG-5263,2,2026-12-01,09:33:00,Security Belt B,Accepted
+BAG-5263,3,2026-12-01,10:25:00,Main Sorting Area,Cleared
+BAG-5264,1,2026-12-01,10:33:00,Check-in Desk 12,Cleared
+BAG-5265,1,2026-11-21,12:10:00,Security Belt A,Under Inspection
+BAG-5265,2,2026-11-21,12:20:00,Check-in Desk 01,Accepted
+BAG-5265,3,2026-11-21,12:37:00,Main Sorting Area,Loaded
+BAG-5266,1,2026-11-20,07:39:00,Check-in Desk 01,Accepted
+BAG-5266,2,2026-11-20,08:00:00,Check-in Desk 01,Cleared
+BAG-5267,1,2026-12-02,16:37:00,Gate Loading Bay,Under Inspection
+BAG-5268,1,2026-11-06,17:20:00,Security Belt B,Loaded
+BAG-5269,1,2026-11-19,18:21:00,Main Sorting Area,Loaded
+BAG-5270,1,2026-11-21,19:32:00,Security Belt B,Loaded
+BAG-5270,2,2026-11-21,19:44:00,Check-in Desk 01,Cleared
+BAG-5271,1,2026-11-05,15:56:00,Check-in Desk 12,Loaded
+BAG-5271,2,2026-11-05,16:28:00,Gate Loading Bay,Loaded
+BAG-5271,3,2026-11-05,16:47:00,Main Sorting Area,Accepted
+BAG-5272,1,2026-12-03,11:16:00,Security Belt A,Accepted
+BAG-5273,1,2026-11-07,13:26:00,Security Belt B,Cleared
+BAG-5274,1,2026-11-19,20:49:00,Gate Loading Bay,Cleared
+BAG-5274,2,2026-11-19,21:31:00,Main Sorting Area,Under Inspection
+BAG-5274,3,2026-11-19,22:22:00,Gate Loading Bay,Loaded
+BAG-5275,1,2026-12-02,16:38:00,Check-in Desk 01,Accepted
+BAG-5275,2,2026-12-02,17:36:00,Gate Loading Bay,Under Inspection
+BAG-5275,3,2026-12-02,17:46:00,Security Belt A,Cleared
+BAG-5276,1,2026-11-17,15:27:00,Gate Loading Bay,Loaded
+BAG-5276,2,2026-11-17,15:43:00,Security Belt A,Under Inspection
+BAG-5276,3,2026-11-17,16:05:00,Check-in Desk 01,Loaded
+BAG-5277,1,2026-11-24,19:54:00,Gate Loading Bay,Under Inspection
+BAG-5277,2,2026-11-24,20:35:00,Check-in Desk 01,Accepted
+BAG-5278,1,2026-12-01,19:37:00,Main Sorting Area,Cleared
+BAG-5278,2,2026-12-01,20:19:00,Security Belt B,Loaded
+BAG-5279,1,2026-11-15,13:06:00,Main Sorting Area,Cleared
+BAG-5280,1,2026-11-06,22:48:00,Gate Loading Bay,Under Inspection
+BAG-5280,2,2026-11-06,23:30:00,Main Sorting Area,Cleared
+BAG-5280,3,2026-11-07,00:25:00,Check-in Desk 01,Cleared
+BAG-5281,1,2026-11-07,21:04:00,Check-in Desk 01,Accepted
+BAG-5281,2,2026-11-07,21:26:00,Security Belt A,Under Inspection
+BAG-5282,1,2026-11-08,13:31:00,Main Sorting Area,Under Inspection
+BAG-5282,2,2026-11-08,14:28:00,Gate Loading Bay,Loaded
+BAG-5283,1,2026-11-09,22:27:00,Security Belt A,Under Inspection
+BAG-5284,1,2026-11-18,19:36:00,Gate Loading Bay,Accepted
+BAG-5284,2,2026-11-18,19:57:00,Check-in Desk 12,Accepted
+BAG-5285,1,2026-12-02,07:24:00,Gate Loading Bay,Under Inspection
+BAG-5285,2,2026-12-02,07:36:00,Check-in Desk 12,Cleared
+BAG-5286,1,2026-12-03,07:13:00,Check-in Desk 01,Under Inspection
+BAG-5287,1,2026-11-18,23:18:00,Security Belt A,Under Inspection
+BAG-5287,2,2026-11-19,00:16:00,Main Sorting Area,Loaded
+BAG-5288,1,2026-11-21,05:30:00,Security Belt B,Accepted
+BAG-5288,2,2026-11-21,06:04:00,Security Belt A,Cleared
+BAG-5288,3,2026-11-21,06:15:00,Main Sorting Area,Cleared
+BAG-5289,1,2026-11-21,22:00:00,Check-in Desk 01,Under Inspection
+BAG-5289,2,2026-11-21,22:59:00,Main Sorting Area,Accepted
+BAG-5289,3,2026-11-21,23:49:00,Check-in Desk 01,Under Inspection
+BAG-5290,1,2026-11-08,12:38:00,Check-in Desk 12,Accepted
+BAG-5290,2,2026-11-08,13:17:00,Gate Loading Bay,Cleared
+BAG-5290,3,2026-11-08,13:29:00,Check-in Desk 01,Accepted
+BAG-5291,1,2026-11-12,11:20:00,Security Belt B,Loaded
+BAG-5291,2,2026-11-12,11:50:00,Check-in Desk 01,Loaded
+BAG-5292,1,2026-12-01,08:16:00,Security Belt A,Cleared
+BAG-5292,2,2026-12-01,09:04:00,Check-in Desk 01,Cleared
+BAG-5292,3,2026-12-01,10:02:00,Security Belt B,Loaded
+BAG-5293,1,2026-11-09,06:04:00,Security Belt A,Cleared
+BAG-5293,2,2026-11-09,06:14:00,Main Sorting Area,Under Inspection
+BAG-5293,3,2026-11-09,06:31:00,Check-in Desk 01,Accepted
+BAG-5294,1,2026-11-12,17:51:00,Main Sorting Area,Under Inspection
+BAG-5294,2,2026-11-12,18:11:00,Check-in Desk 12,Under Inspection
+BAG-5295,1,2026-12-03,14:00:00,Check-in Desk 01,Cleared
+BAG-5295,2,2026-12-03,14:52:00,Check-in Desk 01,Cleared
+BAG-5295,3,2026-12-03,15:08:00,Check-in Desk 12,Loaded
+BAG-5296,1,2026-12-02,16:56:00,Security Belt B,Cleared
+BAG-5296,2,2026-12-02,17:45:00,Gate Loading Bay,Cleared
+BAG-5297,1,2026-11-13,10:25:00,Gate Loading Bay,Loaded
+BAG-5298,1,2026-11-30,17:00:00,Check-in Desk 01,Under Inspection
+BAG-5298,2,2026-11-30,17:51:00,Main Sorting Area,Accepted
+BAG-5299,1,2026-11-22,10:02:00,Security Belt B,Under Inspection
+BAG-5299,2,2026-11-22,10:14:00,Main Sorting Area,Cleared
+BAG-5299,3,2026-11-22,10:58:00,Main Sorting Area,Loaded
+BAG-5300,1,2026-11-29,10:12:00,Main Sorting Area,Accepted
+BAG-5300,2,2026-11-29,10:47:00,Security Belt A,Accepted
+BAG-5301,1,2026-11-08,12:27:00,Check-in Desk 12,Loaded
+BAG-5301,2,2026-11-08,12:51:00,Check-in Desk 01,Cleared
+BAG-5302,1,2026-11-22,12:51:00,Security Belt A,Accepted
+BAG-5303,1,2026-11-10,22:21:00,Check-in Desk 01,Cleared
+BAG-5303,2,2026-11-10,22:55:00,Check-in Desk 12,Loaded
+BAG-5303,3,2026-11-10,23:27:00,Security Belt A,Loaded
+BAG-5304,1,2026-11-13,05:36:00,Check-in Desk 12,Cleared
+BAG-5305,1,2026-12-01,08:38:00,Main Sorting Area,Under Inspection
+BAG-5305,2,2026-12-01,09:29:00,Security Belt B,Accepted
+BAG-5306,1,2026-12-01,06:35:00,Security Belt A,Under Inspection
+BAG-5307,1,2026-12-01,17:24:00,Security Belt B,Under Inspection
+BAG-5308,1,2026-12-01,11:04:00,Check-in Desk 12,Accepted
+BAG-5308,2,2026-12-01,11:15:00,Check-in Desk 12,Loaded
+BAG-5309,1,2026-11-20,09:07:00,Check-in Desk 12,Accepted
+BAG-5309,2,2026-11-20,10:06:00,Gate Loading Bay,Loaded
+BAG-5310,1,2026-11-07,19:17:00,Gate Loading Bay,Accepted
+BAG-5310,2,2026-11-07,19:54:00,Check-in Desk 12,Cleared
+BAG-5311,1,2026-11-23,12:43:00,Check-in Desk 01,Accepted
+BAG-5311,2,2026-11-23,13:17:00,Gate Loading Bay,Under Inspection
+BAG-5311,3,2026-11-23,14:11:00,Security Belt A,Loaded
+BAG-5312,1,2026-11-06,08:42:00,Gate Loading Bay,Loaded
+BAG-5312,2,2026-11-06,09:40:00,Check-in Desk 12,Loaded
+BAG-5312,3,2026-11-06,10:25:00,Main Sorting Area,Loaded
+BAG-5313,1,2026-11-24,17:02:00,Gate Loading Bay,Under Inspection
+BAG-5313,2,2026-11-24,17:40:00,Gate Loading Bay,Under Inspection
+BAG-5313,3,2026-11-24,17:56:00,Check-in Desk 12,Loaded
+BAG-5314,1,2026-11-06,22:40:00,Main Sorting Area,Loaded
+BAG-5315,1,2026-11-12,08:19:00,Gate Loading Bay,Cleared
+BAG-5315,2,2026-11-12,09:14:00,Main Sorting Area,Accepted
+BAG-5316,1,2026-12-01,21:45:00,Main Sorting Area,Under Inspection
+BAG-5317,1,2026-11-08,10:59:00,Security Belt B,Cleared
+BAG-5317,2,2026-11-08,11:51:00,Security Belt B,Loaded
+BAG-5318,1,2026-11-07,11:24:00,Main Sorting Area,Under Inspection
+BAG-5318,2,2026-11-07,12:03:00,Security Belt B,Accepted
+BAG-5319,1,2026-12-02,11:11:00,Main Sorting Area,Cleared
+BAG-5319,2,2026-12-02,12:05:00,Security Belt B,Loaded
+BAG-5319,3,2026-12-02,12:51:00,Security Belt B,Under Inspection
+BAG-5320,1,2026-11-13,20:45:00,Check-in Desk 12,Under Inspection
+BAG-5320,2,2026-11-13,21:15:00,Security Belt B,Cleared
+BAG-5320,3,2026-11-13,21:58:00,Main Sorting Area,Accepted
+BAG-5321,1,2026-12-01,13:36:00,Security Belt B,Cleared
+BAG-5321,2,2026-12-01,14:08:00,Check-in Desk 12,Cleared
+BAG-5321,3,2026-12-01,14:29:00,Gate Loading Bay,Under Inspection
+BAG-5322,1,2026-12-02,11:47:00,Check-in Desk 12,Accepted
+BAG-5322,2,2026-12-02,12:04:00,Check-in Desk 01,Loaded
+BAG-5322,3,2026-12-02,12:53:00,Check-in Desk 01,Accepted
+BAG-5323,1,2026-11-22,17:28:00,Main Sorting Area,Under Inspection
+BAG-5324,1,2026-12-03,22:02:00,Gate Loading Bay,Loaded
+BAG-5324,2,2026-12-03,22:32:00,Gate Loading Bay,Accepted
+BAG-5325,1,2026-11-09,12:11:00,Check-in Desk 12,Cleared
+BAG-5325,2,2026-11-09,12:51:00,Main Sorting Area,Cleared
+BAG-5325,3,2026-11-09,13:24:00,Check-in Desk 12,Loaded
+BAG-5326,1,2026-11-08,12:31:00,Check-in Desk 12,Under Inspection
+BAG-5327,1,2026-12-05,13:36:00,Security Belt B,Loaded
+BAG-5328,1,2026-11-12,22:24:00,Check-in Desk 12,Accepted
+BAG-5329,1,2026-11-09,14:30:00,Main Sorting Area,Cleared
+BAG-5329,2,2026-11-09,15:02:00,Check-in Desk 01,Loaded
+BAG-5330,1,2026-11-08,16:49:00,Main Sorting Area,Cleared
+BAG-5331,1,2026-11-22,09:35:00,Security Belt A,Under Inspection
+BAG-5332,1,2026-11-07,16:17:00,Main Sorting Area,Loaded
+BAG-5332,2,2026-11-07,16:53:00,Check-in Desk 12,Under Inspection
+BAG-5332,3,2026-11-07,17:04:00,Check-in Desk 12,Under Inspection
+BAG-5333,1,2026-11-21,13:45:00,Check-in Desk 01,Accepted
+BAG-5333,2,2026-11-21,14:44:00,Security Belt B,Accepted
+BAG-5334,1,2026-11-23,14:05:00,Check-in Desk 12,Under Inspection
+BAG-5334,2,2026-11-23,14:48:00,Check-in Desk 12,Accepted
+BAG-5335,1,2026-12-03,17:24:00,Main Sorting Area,Under Inspection
+BAG-5336,1,2026-11-08,20:14:00,Security Belt A,Loaded
+BAG-5336,2,2026-11-08,20:40:00,Check-in Desk 12,Cleared
+BAG-5337,1,2026-12-01,05:44:00,Check-in Desk 01,Loaded
+BAG-5337,2,2026-12-01,06:12:00,Main Sorting Area,Under Inspection
+BAG-5338,1,2026-11-20,22:50:00,Gate Loading Bay,Loaded
+BAG-5339,1,2026-11-30,13:27:00,Main Sorting Area,Cleared
+BAG-5339,2,2026-11-30,14:03:00,Check-in Desk 12,Accepted
+BAG-5339,3,2026-11-30,14:24:00,Check-in Desk 12,Cleared
+BAG-5340,1,2026-11-24,20:29:00,Check-in Desk 01,Under Inspection
+BAG-5341,1,2026-11-07,14:40:00,Security Belt B,Under Inspection
+BAG-5342,1,2026-11-07,19:28:00,Check-in Desk 12,Accepted
+BAG-5343,1,2026-11-08,17:17:00,Gate Loading Bay,Under Inspection
+BAG-5344,1,2026-11-08,19:49:00,Gate Loading Bay,Cleared
+BAG-5344,2,2026-11-08,20:19:00,Check-in Desk 12,Accepted
+BAG-5345,1,2026-12-03,22:52:00,Check-in Desk 12,Accepted
+BAG-5346,1,2026-12-01,18:40:00,Check-in Desk 01,Loaded
+BAG-5347,1,2026-12-01,09:43:00,Check-in Desk 01,Cleared
+BAG-5347,2,2026-12-01,10:34:00,Check-in Desk 12,Accepted
+BAG-5347,3,2026-12-01,10:52:00,Security Belt B,Under Inspection
+BAG-5348,1,2026-11-14,22:48:00,Security Belt A,Accepted
+BAG-5348,2,2026-11-14,23:29:00,Gate Loading Bay,Loaded
+BAG-5348,3,2026-11-15,00:14:00,Security Belt A,Loaded
+BAG-5349,1,2026-12-03,10:49:00,Security Belt B,Cleared
+BAG-5349,2,2026-12-03,11:15:00,Main Sorting Area,Cleared
+BAG-5349,3,2026-12-03,11:54:00,Check-in Desk 01,Loaded
+BAG-5350,1,2026-11-29,10:43:00,Gate Loading Bay,Loaded
+BAG-5351,1,2026-11-29,10:22:00,Check-in Desk 01,Accepted
+BAG-5351,2,2026-11-29,10:40:00,Check-in Desk 12,Accepted
+BAG-5351,3,2026-11-29,11:02:00,Check-in Desk 01,Loaded
+BAG-5352,1,2026-12-03,08:24:00,Main Sorting Area,Accepted
+BAG-5352,2,2026-12-03,08:34:00,Check-in Desk 12,Loaded
+BAG-5353,1,2026-11-09,19:12:00,Gate Loading Bay,Accepted
+BAG-5353,2,2026-11-09,19:41:00,Check-in Desk 01,Under Inspection
+BAG-5353,3,2026-11-09,20:24:00,Check-in Desk 01,Accepted
+BAG-5354,1,2026-11-07,13:42:00,Main Sorting Area,Loaded
+BAG-5354,2,2026-11-07,14:39:00,Check-in Desk 01,Cleared
+BAG-5354,3,2026-11-07,15:32:00,Security Belt B,Loaded
+BAG-5355,1,2026-12-05,11:00:00,Security Belt A,Cleared
+BAG-5355,2,2026-12-05,11:36:00,Gate Loading Bay,Loaded
+BAG-5356,1,2026-11-10,15:53:00,Security Belt B,Accepted
+BAG-5356,2,2026-11-10,16:49:00,Check-in Desk 01,Cleared
+BAG-5357,1,2026-11-17,05:26:00,Gate Loading Bay,Cleared
+BAG-5357,2,2026-11-17,06:11:00,Main Sorting Area,Under Inspection
+BAG-5358,1,2026-12-03,07:11:00,Security Belt A,Accepted
+BAG-5359,1,2026-11-22,18:09:00,Main Sorting Area,Accepted
+BAG-5359,2,2026-11-22,18:57:00,Gate Loading Bay,Cleared
+BAG-5359,3,2026-11-22,19:09:00,Gate Loading Bay,Loaded
+BAG-5360,1,2026-12-01,07:21:00,Main Sorting Area,Accepted
+BAG-5360,2,2026-12-01,08:11:00,Gate Loading Bay,Loaded
+BAG-5360,3,2026-12-01,08:24:00,Security Belt A,Accepted
+BAG-5361,1,2026-12-04,23:01:00,Main Sorting Area,Accepted
+BAG-5361,2,2026-12-04,23:25:00,Security Belt B,Cleared
+BAG-5361,3,2026-12-05,00:25:00,Security Belt B,Under Inspection
+BAG-5362,1,2026-11-15,15:42:00,Security Belt B,Under Inspection
+BAG-5362,2,2026-11-15,16:40:00,Check-in Desk 12,Loaded
+BAG-5363,1,2026-12-01,12:12:00,Security Belt B,Cleared
+BAG-5364,1,2026-11-07,07:48:00,Gate Loading Bay,Accepted
+BAG-5364,2,2026-11-07,08:47:00,Security Belt A,Under Inspection
+BAG-5365,1,2026-12-02,19:48:00,Check-in Desk 12,Accepted
+BAG-5365,2,2026-12-02,20:05:00,Gate Loading Bay,Accepted
+BAG-5365,3,2026-12-02,20:30:00,Main Sorting Area,Under Inspection
+BAG-5366,1,2026-11-16,06:27:00,Main Sorting Area,Under Inspection
+BAG-5367,1,2026-12-03,23:22:00,Main Sorting Area,Accepted
+BAG-5367,2,2026-12-03,23:48:00,Check-in Desk 12,Accepted
+BAG-5367,3,2026-12-04,00:16:00,Check-in Desk 12,Cleared
+BAG-5368,1,2026-12-03,19:28:00,Gate Loading Bay,Loaded
+BAG-5369,1,2026-11-23,17:42:00,Security Belt B,Accepted
+BAG-5370,1,2026-11-24,13:23:00,Security Belt A,Cleared
+BAG-5370,2,2026-11-24,14:13:00,Security Belt A,Under Inspection
+BAG-5371,1,2026-11-07,13:19:00,Security Belt A,Loaded
+BAG-5372,1,2026-12-01,09:48:00,Security Belt A,Loaded
+BAG-5372,2,2026-12-01,10:32:00,Check-in Desk 12,Under Inspection
+BAG-5373,1,2026-11-07,10:06:00,Main Sorting Area,Under Inspection
+BAG-5374,1,2026-11-06,07:36:00,Security Belt B,Cleared
+BAG-5374,2,2026-11-06,08:14:00,Gate Loading Bay,Cleared
+BAG-5375,1,2026-11-10,11:24:00,Check-in Desk 12,Accepted
+BAG-5375,2,2026-11-10,11:56:00,Check-in Desk 01,Loaded
+BAG-5375,3,2026-11-10,12:14:00,Main Sorting Area,Loaded
+BAG-5376,1,2026-12-01,16:27:00,Security Belt B,Accepted
+BAG-5377,1,2026-11-08,18:45:00,Security Belt B,Under Inspection
+BAG-5377,2,2026-11-08,19:22:00,Security Belt B,Accepted
+BAG-5377,3,2026-11-08,20:10:00,Gate Loading Bay,Loaded
+BAG-5378,1,2026-11-15,16:29:00,Security Belt B,Accepted
+BAG-5378,2,2026-11-15,17:14:00,Security Belt B,Accepted
+BAG-5378,3,2026-11-15,17:36:00,Security Belt A,Loaded
+BAG-5379,1,2026-11-08,15:21:00,Security Belt B,Accepted
+BAG-5379,2,2026-11-08,16:17:00,Main Sorting Area,Accepted
+BAG-5380,1,2026-11-10,23:02:00,Gate Loading Bay,Under Inspection
+BAG-5380,2,2026-11-10,23:41:00,Check-in Desk 01,Cleared
+BAG-5381,1,2026-11-22,10:55:00,Security Belt B,Under Inspection
+BAG-5381,2,2026-11-22,11:29:00,Main Sorting Area,Loaded
+BAG-5381,3,2026-11-22,11:41:00,Check-in Desk 12,Cleared
+BAG-5382,1,2026-11-18,09:44:00,Gate Loading Bay,Loaded
+BAG-5382,2,2026-11-18,10:12:00,Gate Loading Bay,Under Inspection
+BAG-5383,1,2026-12-03,09:25:00,Main Sorting Area,Loaded
+BAG-5383,2,2026-12-03,09:50:00,Check-in Desk 12,Loaded
+BAG-5383,3,2026-12-03,10:29:00,Security Belt B,Loaded
+BAG-5384,1,2026-12-01,05:47:00,Check-in Desk 01,Under Inspection
+BAG-5384,2,2026-12-01,05:59:00,Gate Loading Bay,Cleared
+BAG-5384,3,2026-12-01,06:30:00,Check-in Desk 01,Accepted
+BAG-5385,1,2026-11-07,19:02:00,Security Belt A,Accepted
+BAG-5385,2,2026-11-07,19:17:00,Security Belt A,Cleared
+BAG-5385,3,2026-11-07,19:50:00,Security Belt B,Accepted
+BAG-5386,1,2026-11-16,22:36:00,Main Sorting Area,Under Inspection
+BAG-5386,2,2026-11-16,23:30:00,Check-in Desk 12,Accepted
+BAG-5386,3,2026-11-16,23:46:00,Main Sorting Area,Accepted
+BAG-5387,1,2026-11-16,15:31:00,Security Belt B,Loaded
+BAG-5387,2,2026-11-16,16:12:00,Check-in Desk 12,Under Inspection
+BAG-5387,3,2026-11-16,17:07:00,Security Belt A,Under Inspection
+BAG-5388,1,2026-11-15,08:12:00,Security Belt A,Cleared
+BAG-5388,2,2026-11-15,08:57:00,Gate Loading Bay,Under Inspection
+BAG-5389,1,2026-11-24,12:23:00,Security Belt A,Cleared
+BAG-5390,1,2026-12-02,06:06:00,Check-in Desk 12,Loaded
+BAG-5391,1,2026-12-03,20:26:00,Gate Loading Bay,Cleared
+BAG-5391,2,2026-12-03,21:11:00,Main Sorting Area,Accepted
+BAG-5391,3,2026-12-03,21:34:00,Main Sorting Area,Cleared
+BAG-5392,1,2026-11-07,08:03:00,Security Belt B,Under Inspection
+BAG-5392,2,2026-11-07,08:51:00,Check-in Desk 01,Cleared
+BAG-5392,3,2026-11-07,09:46:00,Security Belt A,Accepted
+BAG-5393,1,2026-11-23,18:29:00,Check-in Desk 12,Accepted
+BAG-5393,2,2026-11-23,19:02:00,Check-in Desk 01,Under Inspection
+BAG-5393,3,2026-11-23,19:17:00,Security Belt B,Accepted
+BAG-5394,1,2026-11-14,22:14:00,Check-in Desk 01,Under Inspection
+BAG-5395,1,2026-11-12,07:24:00,Check-in Desk 01,Accepted
+BAG-5395,2,2026-11-12,08:07:00,Gate Loading Bay,Cleared
+BAG-5396,1,2026-11-08,15:07:00,Check-in Desk 01,Cleared
+BAG-5396,2,2026-11-08,15:26:00,Check-in Desk 12,Cleared
+BAG-5397,1,2026-11-12,05:28:00,Main Sorting Area,Under Inspection
+BAG-5397,2,2026-11-12,05:48:00,Check-in Desk 01,Cleared
+BAG-5397,3,2026-11-12,06:37:00,Security Belt A,Loaded
+BAG-5398,1,2026-11-07,09:35:00,Check-in Desk 12,Loaded
+BAG-5398,2,2026-11-07,10:24:00,Security Belt A,Cleared
+BAG-5399,1,2026-11-07,11:29:00,Gate Loading Bay,Loaded
+BAG-5399,2,2026-11-07,12:09:00,Check-in Desk 12,Under Inspection
+BAG-5400,1,2026-11-09,14:11:00,Check-in Desk 01,Accepted
+BAG-5400,2,2026-11-09,14:51:00,Check-in Desk 01,Cleared
+BAG-5401,1,2026-12-04,20:10:00,Check-in Desk 01,Cleared
+BAG-5401,2,2026-12-04,20:55:00,Gate Loading Bay,Accepted
+BAG-5402,1,2026-11-06,23:19:00,Check-in Desk 01,Cleared
+BAG-5402,2,2026-11-06,23:42:00,Gate Loading Bay,Loaded
+BAG-5403,1,2026-11-16,16:03:00,Security Belt B,Cleared
+BAG-5403,2,2026-11-16,16:48:00,Check-in Desk 01,Loaded
+BAG-5403,3,2026-11-16,17:09:00,Security Belt A,Loaded
+BAG-5404,1,2026-11-15,09:03:00,Main Sorting Area,Accepted
+BAG-5405,1,2026-11-07,10:38:00,Security Belt A,Cleared
+BAG-5406,1,2026-11-22,14:58:00,Security Belt A,Accepted
+BAG-5406,2,2026-11-22,15:08:00,Gate Loading Bay,Cleared
+BAG-5407,1,2026-11-23,14:34:00,Security Belt B,Loaded
+BAG-5407,2,2026-11-23,15:11:00,Main Sorting Area,Under Inspection
+BAG-5407,3,2026-11-23,16:03:00,Check-in Desk 12,Loaded
+BAG-5408,1,2026-12-03,11:59:00,Gate Loading Bay,Accepted
+BAG-5409,1,2026-11-23,21:33:00,Security Belt B,Under Inspection
+BAG-5409,2,2026-11-23,22:12:00,Main Sorting Area,Loaded
+BAG-5409,3,2026-11-23,22:57:00,Security Belt B,Loaded
+BAG-5410,1,2026-12-04,12:59:00,Main Sorting Area,Cleared
+BAG-5410,2,2026-12-04,13:11:00,Check-in Desk 01,Loaded
+BAG-5411,1,2026-11-10,16:15:00,Main Sorting Area,Accepted
+BAG-5411,2,2026-11-10,16:40:00,Security Belt B,Accepted
+BAG-5411,3,2026-11-10,17:33:00,Gate Loading Bay,Cleared
+BAG-5412,1,2026-11-05,07:02:00,Security Belt A,Cleared
+BAG-5412,2,2026-11-05,07:22:00,Check-in Desk 01,Cleared
+BAG-5413,1,2026-11-06,13:41:00,Check-in Desk 01,Under Inspection
+BAG-5413,2,2026-11-06,14:23:00,Check-in Desk 01,Cleared
+BAG-5414,1,2026-12-04,10:27:00,Check-in Desk 12,Loaded
+BAG-5414,2,2026-12-04,11:00:00,Check-in Desk 12,Cleared
+BAG-5414,3,2026-12-04,12:00:00,Gate Loading Bay,Under Inspection
+BAG-5415,1,2026-11-30,10:59:00,Security Belt B,Under Inspection
+BAG-5415,2,2026-11-30,11:51:00,Security Belt B,Under Inspection
+BAG-5416,1,2026-11-07,16:29:00,Security Belt B,Under Inspection
+BAG-5416,2,2026-11-07,17:03:00,Gate Loading Bay,Loaded
+BAG-5417,1,2026-11-19,13:45:00,Main Sorting Area,Accepted
+BAG-5417,2,2026-11-19,14:01:00,Main Sorting Area,Cleared
+BAG-5417,3,2026-11-19,14:38:00,Main Sorting Area,Cleared
+BAG-5418,1,2026-11-08,14:27:00,Check-in Desk 12,Under Inspection
+BAG-5418,2,2026-11-08,15:10:00,Security Belt A,Under Inspection
+BAG-5418,3,2026-11-08,15:40:00,Main Sorting Area,Accepted
+BAG-5419,1,2026-11-17,05:24:00,Gate Loading Bay,Cleared
+BAG-5419,2,2026-11-17,05:50:00,Check-in Desk 12,Accepted
+BAG-5420,1,2026-11-07,07:18:00,Security Belt B,Under Inspection
+BAG-5420,2,2026-11-07,07:35:00,Gate Loading Bay,Under Inspection
+BAG-5420,3,2026-11-07,08:01:00,Security Belt A,Loaded
+BAG-5421,1,2026-11-18,08:44:00,Check-in Desk 01,Cleared
+BAG-5422,1,2026-11-09,17:59:00,Security Belt B,Under Inspection
+BAG-5422,2,2026-11-09,18:48:00,Security Belt B,Under Inspection
+BAG-5423,1,2026-11-13,20:26:00,Check-in Desk 01,Accepted
+BAG-5423,2,2026-11-13,20:40:00,Check-in Desk 01,Cleared
+BAG-5423,3,2026-11-13,21:39:00,Security Belt B,Accepted
+BAG-5424,1,2026-11-08,09:10:00,Main Sorting Area,Loaded
+BAG-5424,2,2026-11-08,09:50:00,Security Belt B,Loaded
+BAG-5424,3,2026-11-08,10:46:00,Check-in Desk 01,Under Inspection
+BAG-5425,1,2026-11-24,18:35:00,Gate Loading Bay,Accepted
+BAG-5426,1,2026-11-13,23:15:00,Check-in Desk 01,Loaded
+BAG-5427,1,2026-12-03,12:20:00,Security Belt B,Under Inspection
+BAG-5428,1,2026-11-20,06:59:00,Security Belt B,Accepted
+BAG-5428,2,2026-11-20,07:11:00,Security Belt A,Accepted
+BAG-5429,1,2026-11-30,07:32:00,Check-in Desk 12,Accepted
+BAG-5429,2,2026-11-30,07:44:00,Gate Loading Bay,Under Inspection
+BAG-5429,3,2026-11-30,08:25:00,Gate Loading Bay,Accepted
+BAG-5430,1,2026-11-22,06:54:00,Main Sorting Area,Under Inspection
+BAG-5431,1,2026-11-18,07:37:00,Security Belt A,Loaded
+BAG-5432,1,2026-12-02,08:32:00,Security Belt A,Under Inspection
+BAG-5433,1,2026-11-18,11:30:00,Gate Loading Bay,Loaded
+BAG-5434,1,2026-12-03,06:39:00,Security Belt B,Under Inspection
+BAG-5434,2,2026-12-03,07:02:00,Check-in Desk 12,Cleared
+BAG-5435,1,2026-12-01,20:26:00,Main Sorting Area,Accepted
+BAG-5435,2,2026-12-01,21:16:00,Security Belt A,Cleared
+BAG-5435,3,2026-12-01,21:52:00,Check-in Desk 01,Under Inspection
+BAG-5436,1,2026-12-03,08:22:00,Check-in Desk 01,Under Inspection
+BAG-5437,1,2026-11-08,21:18:00,Security Belt A,Under Inspection
+BAG-5437,2,2026-11-08,21:55:00,Security Belt A,Cleared
+BAG-5437,3,2026-11-08,22:44:00,Security Belt B,Accepted
+BAG-5438,1,2026-11-09,07:11:00,Security Belt B,Cleared
+BAG-5439,1,2026-11-30,12:06:00,Check-in Desk 12,Loaded
+BAG-5439,2,2026-11-30,12:30:00,Check-in Desk 01,Loaded
+BAG-5439,3,2026-11-30,13:17:00,Security Belt B,Accepted
+BAG-5440,1,2026-11-18,09:37:00,Gate Loading Bay,Cleared
+BAG-5440,2,2026-11-18,10:04:00,Check-in Desk 12,Cleared
+BAG-5440,3,2026-11-18,10:22:00,Check-in Desk 01,Accepted
+BAG-5441,1,2026-11-30,09:48:00,Check-in Desk 12,Under Inspection
+BAG-5441,2,2026-11-30,10:34:00,Main Sorting Area,Under Inspection
+BAG-5442,1,2026-11-09,19:22:00,Gate Loading Bay,Under Inspection
+BAG-5442,2,2026-11-09,19:47:00,Security Belt A,Loaded
+BAG-5442,3,2026-11-09,20:34:00,Check-in Desk 12,Under Inspection
+BAG-5443,1,2026-11-08,06:20:00,Security Belt B,Accepted
+BAG-5443,2,2026-11-08,06:58:00,Security Belt B,Under Inspection
+BAG-5443,3,2026-11-08,07:13:00,Main Sorting Area,Accepted
+BAG-5444,1,2026-12-01,19:07:00,Security Belt A,Under Inspection
+BAG-5444,2,2026-12-01,20:02:00,Security Belt B,Accepted
+BAG-5445,1,2026-11-13,20:05:00,Check-in Desk 01,Accepted
+BAG-5445,2,2026-11-13,20:39:00,Gate Loading Bay,Cleared
+BAG-5445,3,2026-11-13,21:22:00,Check-in Desk 01,Cleared
+BAG-5446,1,2026-11-18,13:32:00,Security Belt B,Cleared
+BAG-5447,1,2026-11-08,07:01:00,Check-in Desk 12,Accepted
+BAG-5448,1,2026-11-13,20:28:00,Check-in Desk 01,Cleared
+BAG-5448,2,2026-11-13,21:00:00,Security Belt B,Loaded
+BAG-5449,1,2026-11-05,21:39:00,Check-in Desk 01,Accepted
+BAG-5450,1,2026-11-19,10:49:00,Check-in Desk 12,Accepted
+BAG-5450,2,2026-11-19,11:17:00,Security Belt B,Under Inspection
+BAG-5451,1,2026-12-02,17:28:00,Gate Loading Bay,Cleared
+BAG-5452,1,2026-12-02,16:30:00,Security Belt A,Under Inspection
+BAG-5453,1,2026-11-30,16:50:00,Gate Loading Bay,Cleared
+BAG-5453,2,2026-11-30,17:11:00,Check-in Desk 12,Under Inspection
+BAG-5453,3,2026-11-30,17:31:00,Check-in Desk 12,Accepted
+BAG-5454,1,2026-11-23,15:45:00,Security Belt A,Under Inspection
+BAG-5454,2,2026-11-23,16:18:00,Security Belt B,Under Inspection
+BAG-5454,3,2026-11-23,17:02:00,Security Belt A,Accepted
+BAG-5455,1,2026-12-03,18:29:00,Main Sorting Area,Cleared
+BAG-5455,2,2026-12-03,19:20:00,Gate Loading Bay,Cleared
+BAG-5455,3,2026-12-03,20:00:00,Security Belt A,Under Inspection
+BAG-5456,1,2026-11-07,19:41:00,Security Belt B,Under Inspection
+BAG-5456,2,2026-11-07,20:19:00,Security Belt A,Accepted
+BAG-5457,1,2026-11-19,07:07:00,Check-in Desk 01,Loaded
+BAG-5457,2,2026-11-19,07:29:00,Security Belt B,Cleared
+BAG-5457,3,2026-11-19,08:17:00,Main Sorting Area,Accepted
+BAG-5458,1,2026-11-10,17:17:00,Security Belt A,Cleared
+BAG-5458,2,2026-11-10,17:55:00,Main Sorting Area,Accepted
+BAG-5459,1,2026-12-03,20:32:00,Main Sorting Area,Accepted
+BAG-5460,1,2026-11-19,12:06:00,Gate Loading Bay,Cleared
+BAG-5461,1,2026-11-16,11:26:00,Check-in Desk 01,Cleared
+BAG-5461,2,2026-11-16,12:13:00,Security Belt A,Loaded
+BAG-5461,3,2026-11-16,12:58:00,Gate Loading Bay,Loaded
+BAG-5462,1,2026-11-19,05:52:00,Security Belt A,Loaded
+BAG-5462,2,2026-11-19,06:13:00,Security Belt B,Under Inspection
+BAG-5462,3,2026-11-19,06:24:00,Check-in Desk 01,Cleared
+BAG-5463,1,2026-11-22,08:12:00,Gate Loading Bay,Accepted
+BAG-5463,2,2026-11-22,08:38:00,Check-in Desk 12,Accepted
+BAG-5464,1,2026-12-05,16:35:00,Security Belt A,Accepted
+BAG-5464,2,2026-12-05,17:03:00,Security Belt A,Accepted
+BAG-5465,1,2026-11-06,12:08:00,Gate Loading Bay,Cleared
+BAG-5465,2,2026-11-06,12:24:00,Main Sorting Area,Cleared
+BAG-5466,1,2026-11-09,05:31:00,Check-in Desk 12,Under Inspection
+BAG-5467,1,2026-11-15,12:26:00,Security Belt B,Cleared
+BAG-5468,1,2026-11-09,16:32:00,Check-in Desk 12,Under Inspection
+BAG-5468,2,2026-11-09,17:26:00,Check-in Desk 12,Under Inspection
+BAG-5468,3,2026-11-09,17:55:00,Check-in Desk 12,Under Inspection
+BAG-5469,1,2026-11-23,08:07:00,Check-in Desk 01,Accepted
+BAG-5470,1,2026-11-07,21:52:00,Check-in Desk 01,Accepted
+BAG-5470,2,2026-11-07,22:52:00,Check-in Desk 01,Under Inspection
+BAG-5471,1,2026-12-01,11:35:00,Main Sorting Area,Under Inspection
+BAG-5471,2,2026-12-01,12:17:00,Main Sorting Area,Accepted
+BAG-5472,1,2026-11-08,05:57:00,Gate Loading Bay,Loaded
+BAG-5473,1,2026-12-04,11:27:00,Check-in Desk 12,Loaded
+BAG-5474,1,2026-11-15,15:28:00,Main Sorting Area,Accepted
+BAG-5474,2,2026-11-15,15:43:00,Security Belt A,Loaded
+BAG-5474,3,2026-11-15,16:00:00,Security Belt B,Cleared
+BAG-5475,1,2026-11-22,15:25:00,Gate Loading Bay,Cleared
+BAG-5476,1,2026-12-03,06:20:00,Security Belt B,Accepted
+BAG-5477,1,2026-11-12,10:37:00,Gate Loading Bay,Loaded
+BAG-5478,1,2026-11-30,14:12:00,Check-in Desk 12,Loaded
+BAG-5478,2,2026-11-30,14:28:00,Check-in Desk 01,Cleared
+BAG-5478,3,2026-11-30,15:09:00,Security Belt B,Under Inspection
+BAG-5479,1,2026-11-29,09:34:00,Main Sorting Area,Cleared
+BAG-5480,1,2026-11-15,14:41:00,Security Belt B,Cleared
+BAG-5480,2,2026-11-15,15:25:00,Security Belt A,Accepted
+BAG-5480,3,2026-11-15,16:23:00,Check-in Desk 01,Loaded
+BAG-5481,1,2026-11-09,18:30:00,Gate Loading Bay,Cleared
+BAG-5482,1,2026-11-17,11:31:00,Gate Loading Bay,Loaded
+BAG-5483,1,2026-12-01,23:32:00,Security Belt B,Cleared
+BAG-5483,2,2026-12-02,00:31:00,Security Belt A,Cleared
+BAG-5484,1,2026-11-07,05:16:00,Security Belt B,Cleared
+BAG-5484,2,2026-11-07,05:48:00,Security Belt B,Cleared
+BAG-5485,1,2026-12-03,12:46:00,Check-in Desk 12,Accepted
+BAG-5486,1,2026-12-01,15:54:00,Security Belt B,Accepted
+BAG-5487,1,2026-11-08,18:26:00,Main Sorting Area,Cleared
+BAG-5487,2,2026-11-08,18:46:00,Main Sorting Area,Cleared
+BAG-5488,1,2026-11-22,18:28:00,Security Belt A,Loaded
+BAG-5488,2,2026-11-22,18:52:00,Main Sorting Area,Accepted
+BAG-5489,1,2026-11-10,09:02:00,Check-in Desk 01,Cleared
+BAG-5490,1,2026-11-06,15:43:00,Main Sorting Area,Under Inspection
+BAG-5490,2,2026-11-06,15:54:00,Gate Loading Bay,Under Inspection
+BAG-5490,3,2026-11-06,16:40:00,Security Belt B,Under Inspection
+BAG-5491,1,2026-11-18,19:55:00,Check-in Desk 12,Cleared
+BAG-5492,1,2026-12-02,18:50:00,Security Belt A,Under Inspection
+BAG-5492,2,2026-12-02,19:25:00,Check-in Desk 12,Accepted
+BAG-5492,3,2026-12-02,19:44:00,Check-in Desk 12,Accepted
+BAG-5493,1,2026-12-03,15:12:00,Check-in Desk 12,Accepted
+BAG-5494,1,2026-11-08,14:03:00,Security Belt A,Accepted
+BAG-5494,2,2026-11-08,14:39:00,Security Belt A,Accepted
+BAG-5495,1,2026-12-02,09:40:00,Main Sorting Area,Accepted
+BAG-5496,1,2026-11-13,16:12:00,Security Belt B,Loaded
+BAG-5497,1,2026-11-09,07:10:00,Security Belt A,Under Inspection
+BAG-5497,2,2026-11-09,07:43:00,Security Belt B,Cleared
+BAG-5497,3,2026-11-09,08:12:00,Check-in Desk 01,Accepted
+BAG-5498,1,2026-11-22,06:40:00,Security Belt B,Loaded
+BAG-5498,2,2026-11-22,06:50:00,Security Belt B,Cleared
+BAG-5498,3,2026-11-22,07:19:00,Check-in Desk 01,Under Inspection
+BAG-5499,1,2026-11-08,11:30:00,Security Belt B,Loaded
+BAG-5499,2,2026-11-08,12:27:00,Security Belt B,Cleared
+BAG-5500,1,2026-11-17,18:56:00,Main Sorting Area,Cleared
+BAG-5500,2,2026-11-17,19:35:00,Gate Loading Bay,Accepted
+BAG-5500,3,2026-11-17,20:33:00,Check-in Desk 01,Under Inspection
