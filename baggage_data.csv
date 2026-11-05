@@ -1,0 +1,501 @@
+baggage_id,checkin_id,tag_number,weight_kg,status,special_handling
+BAG-5001,CHK-1001,TAG-90001,27.12,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5002,CHK-1002,TAG-90002,29.74,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5003,CHK-1003,TAG-90003,29.28,Loaded,
+BAG-5004,CHK-1004,TAG-90004,30.75,Screening,"{""fragile"": true}"
+BAG-5005,CHK-1005,TAG-90005,17.70,Checked,"{""fragile"": true}"
+BAG-5006,CHK-1006,TAG-90006,31.82,Checked,"{""fragile"": true}"
+BAG-5007,CHK-1007,TAG-90007,12.35,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5008,CHK-1008,TAG-90008,31.88,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5009,CHK-1009,TAG-90009,11.15,Screening,"{""fragile"": true}"
+BAG-5010,CHK-1010,TAG-90010,16.89,Screening,"{""heavy"": true}"
+BAG-5011,CHK-1011,TAG-90011,26.99,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5012,CHK-1012,TAG-90012,17.77,Checked,"{""fragile"": true}"
+BAG-5013,CHK-1013,TAG-90013,17.61,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5014,CHK-1014,TAG-90014,26.13,Loaded,"{""heavy"": true}"
+BAG-5015,CHK-1015,TAG-90015,22.62,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5016,CHK-1016,TAG-90016,31.00,Delivered,
+BAG-5017,CHK-1017,TAG-90017,28.34,Loaded,
+BAG-5018,CHK-1018,TAG-90018,12.48,Screening,"{""fragile"": true}"
+BAG-5019,CHK-1019,TAG-90019,27.37,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5020,CHK-1020,TAG-90020,18.85,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5021,CHK-1021,TAG-90021,10.51,Delivered,
+BAG-5022,CHK-1022,TAG-90022,10.95,Delivered,"{""heavy"": true}"
+BAG-5023,CHK-1023,TAG-90023,11.86,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5024,CHK-1024,TAG-90024,14.36,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5025,CHK-1025,TAG-90025,17.09,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5026,CHK-1026,TAG-90026,27.46,Loaded,
+BAG-5027,CHK-1027,TAG-90027,21.95,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5028,CHK-1028,TAG-90028,12.26,Screening,"{""heavy"": true}"
+BAG-5029,CHK-1029,TAG-90029,28.24,Checked,
+BAG-5030,CHK-1030,TAG-90030,29.98,Delivered,
+BAG-5031,CHK-1031,TAG-90031,17.17,Loaded,"{""heavy"": true}"
+BAG-5032,CHK-1032,TAG-90032,28.20,Checked,"{""fragile"": true}"
+BAG-5033,CHK-1033,TAG-90033,17.36,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5034,CHK-1034,TAG-90034,29.26,Delivered,"{""fragile"": true}"
+BAG-5035,CHK-1035,TAG-90035,23.62,Checked,"{""fragile"": true}"
+BAG-5036,CHK-1036,TAG-90036,18.40,Screening,"{""fragile"": true}"
+BAG-5037,CHK-1037,TAG-90037,14.59,Delivered,"{""fragile"": true}"
+BAG-5038,CHK-1038,TAG-90038,18.07,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5039,CHK-1039,TAG-90039,10.38,Delivered,"{""heavy"": true}"
+BAG-5040,CHK-1040,TAG-90040,23.16,Screening,
+BAG-5041,CHK-1041,TAG-90041,29.95,Checked,"{""fragile"": true}"
+BAG-5042,CHK-1042,TAG-90042,11.13,Checked,"{""heavy"": true}"
+BAG-5043,CHK-1043,TAG-90043,22.45,Checked,"{""heavy"": true}"
+BAG-5044,CHK-1044,TAG-90044,27.15,Checked,
+BAG-5045,CHK-1045,TAG-90045,11.53,Checked,"{""fragile"": true}"
+BAG-5046,CHK-1046,TAG-90046,15.93,Loaded,"{""fragile"": true}"
+BAG-5047,CHK-1047,TAG-90047,12.69,Screening,"{""heavy"": true}"
+BAG-5048,CHK-1048,TAG-90048,12.47,Screening,
+BAG-5049,CHK-1049,TAG-90049,25.96,Loaded,
+BAG-5050,CHK-1050,TAG-90050,15.42,Loaded,"{""heavy"": true}"
+BAG-5051,CHK-1051,TAG-90051,24.52,Loaded,"{""fragile"": true}"
+BAG-5052,CHK-1052,TAG-90052,19.57,Checked,
+BAG-5053,CHK-1053,TAG-90053,25.97,Loaded,
+BAG-5054,CHK-1054,TAG-90054,29.73,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5055,CHK-1055,TAG-90055,16.02,Delivered,"{""heavy"": true}"
+BAG-5056,CHK-1056,TAG-90056,15.70,Delivered,
+BAG-5057,CHK-1057,TAG-90057,31.47,Delivered,
+BAG-5058,CHK-1058,TAG-90058,19.97,Screening,"{""fragile"": true}"
+BAG-5059,CHK-1059,TAG-90059,19.73,Checked,"{""fragile"": true}"
+BAG-5060,CHK-1060,TAG-90060,23.63,Loaded,"{""heavy"": true}"
+BAG-5061,CHK-1061,TAG-90061,31.26,Loaded,
+BAG-5062,CHK-1062,TAG-90062,17.40,Delivered,"{""fragile"": true}"
+BAG-5063,CHK-1063,TAG-90063,22.33,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5064,CHK-1064,TAG-90064,25.27,Screening,"{""heavy"": true}"
+BAG-5065,CHK-1065,TAG-90065,29.69,Loaded,
+BAG-5066,CHK-1066,TAG-90066,30.59,Checked,
+BAG-5067,CHK-1067,TAG-90067,23.92,Delivered,
+BAG-5068,CHK-1068,TAG-90068,28.25,Screening,"{""fragile"": true}"
+BAG-5069,CHK-1069,TAG-90069,20.22,Checked,"{""fragile"": true}"
+BAG-5070,CHK-1070,TAG-90070,27.45,Checked,"{""heavy"": true}"
+BAG-5071,CHK-1071,TAG-90071,30.52,Screening,
+BAG-5072,CHK-1072,TAG-90072,19.26,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5073,CHK-1073,TAG-90073,24.39,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5074,CHK-1074,TAG-90074,12.48,Screening,"{""heavy"": true}"
+BAG-5075,CHK-1075,TAG-90075,11.76,Delivered,
+BAG-5076,CHK-1076,TAG-90076,23.44,Checked,
+BAG-5077,CHK-1077,TAG-90077,25.03,Checked,"{""fragile"": true}"
+BAG-5078,CHK-1078,TAG-90078,13.94,Screening,"{""heavy"": true}"
+BAG-5079,CHK-1079,TAG-90079,12.92,Checked,
+BAG-5080,CHK-1080,TAG-90080,14.80,Loaded,
+BAG-5081,CHK-1081,TAG-90081,16.44,Delivered,
+BAG-5082,CHK-1082,TAG-90082,14.76,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5083,CHK-1083,TAG-90083,26.69,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5084,CHK-1084,TAG-90084,22.59,Checked,"{""heavy"": true}"
+BAG-5085,CHK-1085,TAG-90085,17.26,Delivered,
+BAG-5086,CHK-1086,TAG-90086,19.30,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5087,CHK-1087,TAG-90087,10.55,Delivered,"{""heavy"": true}"
+BAG-5088,CHK-1088,TAG-90088,25.79,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5089,CHK-1089,TAG-90089,16.12,Checked,"{""fragile"": true}"
+BAG-5090,CHK-1090,TAG-90090,30.08,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5091,CHK-1091,TAG-90091,26.62,Checked,"{""heavy"": true}"
+BAG-5092,CHK-1092,TAG-90092,21.36,Checked,"{""heavy"": true}"
+BAG-5093,CHK-1093,TAG-90093,27.45,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5094,CHK-1094,TAG-90094,11.00,Checked,
+BAG-5095,CHK-1095,TAG-90095,12.50,Delivered,"{""heavy"": true}"
+BAG-5096,CHK-1096,TAG-90096,27.52,Screening,"{""fragile"": true}"
+BAG-5097,CHK-1097,TAG-90097,23.47,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5098,CHK-1098,TAG-90098,27.87,Checked,"{""fragile"": true}"
+BAG-5099,CHK-1099,TAG-90099,15.27,Delivered,
+BAG-5100,CHK-1100,TAG-90100,25.99,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5101,CHK-1101,TAG-90101,10.80,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5102,CHK-1102,TAG-90102,18.48,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5103,CHK-1103,TAG-90103,27.18,Screening,"{""fragile"": true}"
+BAG-5104,CHK-1104,TAG-90104,15.38,Screening,
+BAG-5105,CHK-1105,TAG-90105,31.98,Delivered,
+BAG-5106,CHK-1106,TAG-90106,11.00,Screening,"{""fragile"": true}"
+BAG-5107,CHK-1107,TAG-90107,17.76,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5108,CHK-1108,TAG-90108,14.13,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5109,CHK-1109,TAG-90109,14.41,Delivered,"{""heavy"": true}"
+BAG-5110,CHK-1110,TAG-90110,23.86,Loaded,"{""fragile"": true}"
+BAG-5111,CHK-1111,TAG-90111,15.37,Screening,"{""fragile"": true}"
+BAG-5112,CHK-1112,TAG-90112,25.76,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5113,CHK-1113,TAG-90113,17.51,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5114,CHK-1114,TAG-90114,31.24,Delivered,
+BAG-5115,CHK-1115,TAG-90115,21.23,Checked,
+BAG-5116,CHK-1116,TAG-90116,30.21,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5117,CHK-1117,TAG-90117,10.72,Checked,"{""heavy"": true}"
+BAG-5118,CHK-1118,TAG-90118,17.43,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5119,CHK-1119,TAG-90119,29.37,Loaded,
+BAG-5120,CHK-1120,TAG-90120,22.35,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5121,CHK-1121,TAG-90121,12.35,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5122,CHK-1122,TAG-90122,25.55,Delivered,"{""heavy"": true}"
+BAG-5123,CHK-1123,TAG-90123,26.54,Checked,"{""heavy"": true}"
+BAG-5124,CHK-1124,TAG-90124,11.75,Screening,"{""fragile"": true}"
+BAG-5125,CHK-1125,TAG-90125,20.95,Checked,"{""fragile"": true}"
+BAG-5126,CHK-1126,TAG-90126,22.06,Checked,
+BAG-5127,CHK-1127,TAG-90127,15.43,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5128,CHK-1128,TAG-90128,11.42,Screening,
+BAG-5129,CHK-1129,TAG-90129,30.65,Checked,"{""heavy"": true}"
+BAG-5130,CHK-1130,TAG-90130,17.16,Loaded,
+BAG-5131,CHK-1131,TAG-90131,23.45,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5132,CHK-1132,TAG-90132,14.70,Delivered,"{""heavy"": true}"
+BAG-5133,CHK-1133,TAG-90133,27.88,Screening,
+BAG-5134,CHK-1134,TAG-90134,12.34,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5135,CHK-1135,TAG-90135,24.87,Screening,"{""fragile"": true}"
+BAG-5136,CHK-1136,TAG-90136,31.07,Screening,
+BAG-5137,CHK-1137,TAG-90137,29.32,Delivered,
+BAG-5138,CHK-1138,TAG-90138,19.47,Checked,
+BAG-5139,CHK-1139,TAG-90139,28.10,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5140,CHK-1140,TAG-90140,29.11,Delivered,"{""fragile"": true}"
+BAG-5141,CHK-1141,TAG-90141,10.82,Loaded,"{""fragile"": true}"
+BAG-5142,CHK-1142,TAG-90142,22.85,Screening,"{""heavy"": true}"
+BAG-5143,CHK-1143,TAG-90143,23.51,Loaded,
+BAG-5144,CHK-1144,TAG-90144,29.68,Loaded,
+BAG-5145,CHK-1145,TAG-90145,12.11,Delivered,
+BAG-5146,CHK-1146,TAG-90146,11.05,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5147,CHK-1147,TAG-90147,10.91,Delivered,"{""fragile"": true}"
+BAG-5148,CHK-1148,TAG-90148,17.97,Screening,"{""heavy"": true}"
+BAG-5149,CHK-1149,TAG-90149,14.80,Checked,
+BAG-5150,CHK-1150,TAG-90150,28.92,Screening,
+BAG-5151,CHK-1151,TAG-90151,16.95,Checked,"{""heavy"": true}"
+BAG-5152,CHK-1152,TAG-90152,16.39,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5153,CHK-1153,TAG-90153,29.05,Loaded,
+BAG-5154,CHK-1154,TAG-90154,21.34,Loaded,"{""fragile"": true}"
+BAG-5155,CHK-1155,TAG-90155,13.72,Screening,"{""fragile"": true}"
+BAG-5156,CHK-1156,TAG-90156,30.62,Checked,
+BAG-5157,CHK-1157,TAG-90157,10.98,Delivered,"{""heavy"": true}"
+BAG-5158,CHK-1158,TAG-90158,12.19,Delivered,"{""fragile"": true}"
+BAG-5159,CHK-1159,TAG-90159,22.82,Loaded,"{""fragile"": true}"
+BAG-5160,CHK-1160,TAG-90160,17.07,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5161,CHK-1161,TAG-90161,17.58,Loaded,"{""fragile"": true}"
+BAG-5162,CHK-1162,TAG-90162,30.17,Loaded,
+BAG-5163,CHK-1163,TAG-90163,13.92,Delivered,"{""fragile"": true}"
+BAG-5164,CHK-1164,TAG-90164,18.53,Delivered,
+BAG-5165,CHK-1165,TAG-90165,25.86,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5166,CHK-1166,TAG-90166,20.82,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5167,CHK-1167,TAG-90167,28.18,Loaded,
+BAG-5168,CHK-1168,TAG-90168,17.19,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5169,CHK-1169,TAG-90169,21.42,Delivered,"{""heavy"": true}"
+BAG-5170,CHK-1170,TAG-90170,13.09,Screening,"{""heavy"": true}"
+BAG-5171,CHK-1171,TAG-90171,22.68,Checked,"{""fragile"": true}"
+BAG-5172,CHK-1172,TAG-90172,12.58,Delivered,
+BAG-5173,CHK-1173,TAG-90173,23.89,Checked,
+BAG-5174,CHK-1174,TAG-90174,24.34,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5175,CHK-1175,TAG-90175,29.01,Checked,"{""heavy"": true}"
+BAG-5176,CHK-1176,TAG-90176,22.54,Delivered,
+BAG-5177,CHK-1177,TAG-90177,10.38,Screening,"{""fragile"": true}"
+BAG-5178,CHK-1178,TAG-90178,27.22,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5179,CHK-1179,TAG-90179,15.61,Checked,
+BAG-5180,CHK-1180,TAG-90180,29.43,Delivered,"{""fragile"": true}"
+BAG-5181,CHK-1181,TAG-90181,29.47,Delivered,"{""fragile"": true}"
+BAG-5182,CHK-1182,TAG-90182,28.19,Delivered,"{""fragile"": true}"
+BAG-5183,CHK-1183,TAG-90183,31.03,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5184,CHK-1184,TAG-90184,13.64,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5185,CHK-1185,TAG-90185,14.89,Checked,"{""fragile"": true}"
+BAG-5186,CHK-1186,TAG-90186,12.28,Loaded,
+BAG-5187,CHK-1187,TAG-90187,17.61,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5188,CHK-1188,TAG-90188,23.13,Loaded,
+BAG-5189,CHK-1189,TAG-90189,24.54,Screening,"{""heavy"": true}"
+BAG-5190,CHK-1190,TAG-90190,28.08,Screening,"{""heavy"": true}"
+BAG-5191,CHK-1191,TAG-90191,31.96,Checked,
+BAG-5192,CHK-1192,TAG-90192,21.82,Screening,"{""heavy"": true}"
+BAG-5193,CHK-1193,TAG-90193,22.38,Delivered,
+BAG-5194,CHK-1194,TAG-90194,11.29,Checked,
+BAG-5195,CHK-1195,TAG-90195,16.46,Screening,"{""heavy"": true}"
+BAG-5196,CHK-1196,TAG-90196,21.06,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5197,CHK-1197,TAG-90197,23.77,Screening,"{""fragile"": true}"
+BAG-5198,CHK-1198,TAG-90198,30.27,Checked,"{""fragile"": true}"
+BAG-5199,CHK-1199,TAG-90199,17.27,Loaded,"{""heavy"": true}"
+BAG-5200,CHK-1200,TAG-90200,26.58,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5201,CHK-1201,TAG-90201,28.34,Delivered,
+BAG-5202,CHK-1202,TAG-90202,22.12,Checked,
+BAG-5203,CHK-1203,TAG-90203,26.51,Screening,
+BAG-5204,CHK-1204,TAG-90204,10.32,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5205,CHK-1205,TAG-90205,15.70,Delivered,"{""heavy"": true}"
+BAG-5206,CHK-1206,TAG-90206,28.58,Loaded,"{""fragile"": true}"
+BAG-5207,CHK-1207,TAG-90207,14.72,Delivered,
+BAG-5208,CHK-1208,TAG-90208,19.16,Screening,"{""fragile"": true}"
+BAG-5209,CHK-1209,TAG-90209,19.15,Checked,
+BAG-5210,CHK-1210,TAG-90210,16.78,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5211,CHK-1211,TAG-90211,29.36,Screening,"{""heavy"": true}"
+BAG-5212,CHK-1212,TAG-90212,26.99,Checked,"{""heavy"": true}"
+BAG-5213,CHK-1213,TAG-90213,28.07,Delivered,"{""fragile"": true}"
+BAG-5214,CHK-1214,TAG-90214,12.11,Checked,"{""fragile"": true}"
+BAG-5215,CHK-1215,TAG-90215,26.58,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5216,CHK-1216,TAG-90216,16.48,Screening,"{""fragile"": true}"
+BAG-5217,CHK-1217,TAG-90217,14.27,Loaded,"{""fragile"": true}"
+BAG-5218,CHK-1218,TAG-90218,30.19,Checked,
+BAG-5219,CHK-1219,TAG-90219,21.95,Checked,"{""heavy"": true}"
+BAG-5220,CHK-1220,TAG-90220,11.27,Delivered,"{""heavy"": true}"
+BAG-5221,CHK-1221,TAG-90221,13.35,Loaded,"{""heavy"": true}"
+BAG-5222,CHK-1222,TAG-90222,20.16,Delivered,"{""fragile"": true}"
+BAG-5223,CHK-1223,TAG-90223,29.24,Delivered,"{""fragile"": true}"
+BAG-5224,CHK-1224,TAG-90224,14.58,Delivered,
+BAG-5225,CHK-1225,TAG-90225,12.27,Checked,"{""heavy"": true}"
+BAG-5226,CHK-1226,TAG-90226,11.72,Loaded,
+BAG-5227,CHK-1227,TAG-90227,11.08,Delivered,"{""heavy"": true}"
+BAG-5228,CHK-1228,TAG-90228,25.54,Screening,"{""heavy"": true}"
+BAG-5229,CHK-1229,TAG-90229,28.43,Delivered,"{""fragile"": true}"
+BAG-5230,CHK-1230,TAG-90230,10.63,Loaded,
+BAG-5231,CHK-1231,TAG-90231,21.18,Checked,"{""heavy"": true}"
+BAG-5232,CHK-1232,TAG-90232,15.52,Screening,"{""fragile"": true}"
+BAG-5233,CHK-1233,TAG-90233,11.18,Loaded,"{""fragile"": true}"
+BAG-5234,CHK-1234,TAG-90234,18.47,Checked,"{""heavy"": true}"
+BAG-5235,CHK-1235,TAG-90235,10.65,Checked,"{""heavy"": true}"
+BAG-5236,CHK-1236,TAG-90236,10.16,Loaded,
+BAG-5237,CHK-1237,TAG-90237,31.95,Checked,"{""fragile"": true}"
+BAG-5238,CHK-1238,TAG-90238,17.48,Screening,"{""heavy"": true}"
+BAG-5239,CHK-1239,TAG-90239,27.34,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5240,CHK-1240,TAG-90240,12.00,Loaded,
+BAG-5241,CHK-1241,TAG-90241,30.69,Checked,
+BAG-5242,CHK-1242,TAG-90242,25.04,Loaded,
+BAG-5243,CHK-1243,TAG-90243,30.76,Checked,
+BAG-5244,CHK-1244,TAG-90244,16.73,Delivered,
+BAG-5245,CHK-1245,TAG-90245,30.97,Delivered,"{""fragile"": true}"
+BAG-5246,CHK-1246,TAG-90246,15.59,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5247,CHK-1247,TAG-90247,30.44,Screening,
+BAG-5248,CHK-1248,TAG-90248,11.27,Delivered,"{""fragile"": true}"
+BAG-5249,CHK-1249,TAG-90249,13.69,Delivered,
+BAG-5250,CHK-1250,TAG-90250,28.49,Checked,
+BAG-5251,CHK-1251,TAG-90251,17.96,Delivered,
+BAG-5252,CHK-1252,TAG-90252,19.44,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5253,CHK-1253,TAG-90253,22.36,Checked,
+BAG-5254,CHK-1254,TAG-90254,24.09,Delivered,"{""fragile"": true}"
+BAG-5255,CHK-1255,TAG-90255,28.50,Screening,"{""heavy"": true}"
+BAG-5256,CHK-1256,TAG-90256,10.21,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5257,CHK-1257,TAG-90257,27.23,Checked,"{""heavy"": true}"
+BAG-5258,CHK-1258,TAG-90258,18.52,Delivered,"{""fragile"": true}"
+BAG-5259,CHK-1259,TAG-90259,29.76,Loaded,"{""fragile"": true}"
+BAG-5260,CHK-1260,TAG-90260,26.55,Loaded,
+BAG-5261,CHK-1261,TAG-90261,19.11,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5262,CHK-1262,TAG-90262,31.09,Delivered,"{""heavy"": true}"
+BAG-5263,CHK-1263,TAG-90263,27.39,Delivered,"{""fragile"": true}"
+BAG-5264,CHK-1264,TAG-90264,17.32,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5265,CHK-1265,TAG-90265,11.15,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5266,CHK-1266,TAG-90266,10.90,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5267,CHK-1267,TAG-90267,30.30,Checked,"{""heavy"": true}"
+BAG-5268,CHK-1268,TAG-90268,14.44,Checked,"{""fragile"": true}"
+BAG-5269,CHK-1269,TAG-90269,20.81,Loaded,"{""fragile"": true}"
+BAG-5270,CHK-1270,TAG-90270,29.54,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5271,CHK-1271,TAG-90271,21.28,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5272,CHK-1272,TAG-90272,20.87,Delivered,"{""fragile"": true}"
+BAG-5273,CHK-1273,TAG-90273,15.02,Delivered,
+BAG-5274,CHK-1274,TAG-90274,12.05,Delivered,"{""heavy"": true}"
+BAG-5275,CHK-1275,TAG-90275,31.76,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5276,CHK-1276,TAG-90276,29.31,Checked,"{""fragile"": true}"
+BAG-5277,CHK-1277,TAG-90277,22.38,Loaded,
+BAG-5278,CHK-1278,TAG-90278,27.71,Checked,"{""fragile"": true}"
+BAG-5279,CHK-1279,TAG-90279,10.83,Checked,"{""heavy"": true}"
+BAG-5280,CHK-1280,TAG-90280,17.11,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5281,CHK-1281,TAG-90281,23.33,Checked,"{""fragile"": true}"
+BAG-5282,CHK-1282,TAG-90282,22.68,Loaded,
+BAG-5283,CHK-1283,TAG-90283,20.69,Delivered,"{""fragile"": true}"
+BAG-5284,CHK-1284,TAG-90284,22.64,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5285,CHK-1285,TAG-90285,14.90,Screening,
+BAG-5286,CHK-1286,TAG-90286,11.20,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5287,CHK-1287,TAG-90287,13.80,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5288,CHK-1288,TAG-90288,17.97,Delivered,"{""heavy"": true}"
+BAG-5289,CHK-1289,TAG-90289,16.72,Delivered,"{""fragile"": true}"
+BAG-5290,CHK-1290,TAG-90290,10.84,Checked,"{""fragile"": true}"
+BAG-5291,CHK-1291,TAG-90291,18.16,Delivered,"{""heavy"": true}"
+BAG-5292,CHK-1292,TAG-90292,16.09,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5293,CHK-1293,TAG-90293,19.15,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5294,CHK-1294,TAG-90294,15.02,Checked,"{""fragile"": true}"
+BAG-5295,CHK-1295,TAG-90295,30.28,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5296,CHK-1296,TAG-90296,17.97,Screening,
+BAG-5297,CHK-1297,TAG-90297,27.02,Delivered,
+BAG-5298,CHK-1298,TAG-90298,27.01,Screening,"{""fragile"": true}"
+BAG-5299,CHK-1299,TAG-90299,10.48,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5300,CHK-1300,TAG-90300,15.27,Checked,
+BAG-5301,CHK-1301,TAG-90301,20.74,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5302,CHK-1302,TAG-90302,27.68,Delivered,"{""fragile"": true}"
+BAG-5303,CHK-1303,TAG-90303,19.58,Checked,"{""fragile"": true}"
+BAG-5304,CHK-1304,TAG-90304,17.90,Delivered,"{""heavy"": true}"
+BAG-5305,CHK-1305,TAG-90305,14.96,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5306,CHK-1306,TAG-90306,21.20,Delivered,
+BAG-5307,CHK-1307,TAG-90307,20.25,Delivered,"{""heavy"": true}"
+BAG-5308,CHK-1308,TAG-90308,19.68,Loaded,"{""heavy"": true}"
+BAG-5309,CHK-1309,TAG-90309,22.98,Delivered,"{""fragile"": true}"
+BAG-5310,CHK-1310,TAG-90310,24.35,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5311,CHK-1311,TAG-90311,30.54,Checked,
+BAG-5312,CHK-1312,TAG-90312,13.88,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5313,CHK-1313,TAG-90313,16.64,Delivered,
+BAG-5314,CHK-1314,TAG-90314,25.52,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5315,CHK-1315,TAG-90315,28.53,Checked,
+BAG-5316,CHK-1316,TAG-90316,25.58,Delivered,"{""fragile"": true}"
+BAG-5317,CHK-1317,TAG-90317,26.42,Checked,"{""heavy"": true}"
+BAG-5318,CHK-1318,TAG-90318,14.48,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5319,CHK-1319,TAG-90319,13.10,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5320,CHK-1320,TAG-90320,29.68,Delivered,"{""fragile"": true}"
+BAG-5321,CHK-1321,TAG-90321,20.79,Loaded,
+BAG-5322,CHK-1322,TAG-90322,26.80,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5323,CHK-1323,TAG-90323,27.87,Loaded,"{""heavy"": true}"
+BAG-5324,CHK-1324,TAG-90324,24.61,Screening,"{""fragile"": true}"
+BAG-5325,CHK-1325,TAG-90325,26.94,Checked,
+BAG-5326,CHK-1326,TAG-90326,18.96,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5327,CHK-1327,TAG-90327,10.19,Loaded,"{""fragile"": true}"
+BAG-5328,CHK-1328,TAG-90328,17.27,Checked,"{""fragile"": true}"
+BAG-5329,CHK-1329,TAG-90329,19.61,Delivered,
+BAG-5330,CHK-1330,TAG-90330,10.24,Loaded,"{""fragile"": true}"
+BAG-5331,CHK-1331,TAG-90331,27.45,Loaded,"{""fragile"": true}"
+BAG-5332,CHK-1332,TAG-90332,11.80,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5333,CHK-1333,TAG-90333,21.23,Loaded,"{""fragile"": true}"
+BAG-5334,CHK-1334,TAG-90334,10.20,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5335,CHK-1335,TAG-90335,21.94,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5336,CHK-1336,TAG-90336,12.98,Delivered,
+BAG-5337,CHK-1337,TAG-90337,23.85,Checked,"{""heavy"": true}"
+BAG-5338,CHK-1338,TAG-90338,27.13,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5339,CHK-1339,TAG-90339,24.70,Loaded,"{""heavy"": true}"
+BAG-5340,CHK-1340,TAG-90340,13.49,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5341,CHK-1341,TAG-90341,29.74,Screening,"{""heavy"": true}"
+BAG-5342,CHK-1342,TAG-90342,29.64,Delivered,"{""heavy"": true}"
+BAG-5343,CHK-1343,TAG-90343,19.40,Loaded,
+BAG-5344,CHK-1344,TAG-90344,31.09,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5345,CHK-1345,TAG-90345,31.55,Checked,
+BAG-5346,CHK-1346,TAG-90346,13.13,Delivered,
+BAG-5347,CHK-1347,TAG-90347,22.22,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5348,CHK-1348,TAG-90348,17.03,Delivered,"{""heavy"": true}"
+BAG-5349,CHK-1349,TAG-90349,18.81,Checked,"{""fragile"": true}"
+BAG-5350,CHK-1350,TAG-90350,11.42,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5351,CHK-1351,TAG-90351,26.61,Checked,
+BAG-5352,CHK-1352,TAG-90352,22.21,Delivered,
+BAG-5353,CHK-1353,TAG-90353,26.66,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5354,CHK-1354,TAG-90354,27.44,Checked,"{""heavy"": true}"
+BAG-5355,CHK-1355,TAG-90355,29.15,Screening,"{""heavy"": true}"
+BAG-5356,CHK-1356,TAG-90356,30.21,Screening,
+BAG-5357,CHK-1357,TAG-90357,15.40,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5358,CHK-1358,TAG-90358,16.10,Loaded,"{""fragile"": true}"
+BAG-5359,CHK-1359,TAG-90359,31.33,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5360,CHK-1360,TAG-90360,28.62,Checked,"{""heavy"": true}"
+BAG-5361,CHK-1361,TAG-90361,12.20,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5362,CHK-1362,TAG-90362,21.76,Checked,
+BAG-5363,CHK-1363,TAG-90363,15.10,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5364,CHK-1364,TAG-90364,26.99,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5365,CHK-1365,TAG-90365,17.01,Loaded,"{""fragile"": true}"
+BAG-5366,CHK-1366,TAG-90366,21.60,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5367,CHK-1367,TAG-90367,24.56,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5368,CHK-1368,TAG-90368,28.77,Screening,
+BAG-5369,CHK-1369,TAG-90369,21.73,Loaded,"{""fragile"": true}"
+BAG-5370,CHK-1370,TAG-90370,31.33,Loaded,"{""heavy"": true}"
+BAG-5371,CHK-1371,TAG-90371,23.44,Delivered,"{""heavy"": true}"
+BAG-5372,CHK-1372,TAG-90372,19.79,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5373,CHK-1373,TAG-90373,10.79,Screening,"{""heavy"": true}"
+BAG-5374,CHK-1374,TAG-90374,13.14,Loaded,"{""fragile"": true}"
+BAG-5375,CHK-1375,TAG-90375,13.18,Delivered,
+BAG-5376,CHK-1376,TAG-90376,10.30,Delivered,
+BAG-5377,CHK-1377,TAG-90377,22.93,Screening,
+BAG-5378,CHK-1378,TAG-90378,21.16,Checked,"{""heavy"": true}"
+BAG-5379,CHK-1379,TAG-90379,21.94,Screening,
+BAG-5380,CHK-1380,TAG-90380,14.20,Delivered,
+BAG-5381,CHK-1381,TAG-90381,13.90,Loaded,"{""fragile"": true}"
+BAG-5382,CHK-1382,TAG-90382,13.47,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5383,CHK-1383,TAG-90383,18.40,Checked,"{""fragile"": true}"
+BAG-5384,CHK-1384,TAG-90384,13.74,Loaded,
+BAG-5385,CHK-1385,TAG-90385,25.96,Checked,"{""heavy"": true}"
+BAG-5386,CHK-1386,TAG-90386,12.74,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5387,CHK-1387,TAG-90387,22.56,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5388,CHK-1388,TAG-90388,18.68,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5389,CHK-1389,TAG-90389,17.06,Loaded,
+BAG-5390,CHK-1390,TAG-90390,13.99,Screening,"{""fragile"": true}"
+BAG-5391,CHK-1391,TAG-90391,26.32,Checked,"{""fragile"": true}"
+BAG-5392,CHK-1392,TAG-90392,15.72,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5393,CHK-1393,TAG-90393,31.27,Checked,"{""fragile"": true}"
+BAG-5394,CHK-1394,TAG-90394,10.80,Checked,
+BAG-5395,CHK-1395,TAG-90395,20.84,Delivered,"{""heavy"": true}"
+BAG-5396,CHK-1396,TAG-90396,27.12,Loaded,"{""heavy"": true}"
+BAG-5397,CHK-1397,TAG-90397,17.97,Loaded,"{""fragile"": true}"
+BAG-5398,CHK-1398,TAG-90398,29.75,Checked,"{""heavy"": true}"
+BAG-5399,CHK-1399,TAG-90399,13.00,Checked,"{""fragile"": true}"
+BAG-5400,CHK-1400,TAG-90400,30.22,Screening,"{""heavy"": true}"
+BAG-5401,CHK-1401,TAG-90401,24.73,Screening,"{""fragile"": true}"
+BAG-5402,CHK-1402,TAG-90402,23.18,Delivered,"{""heavy"": true}"
+BAG-5403,CHK-1403,TAG-90403,22.36,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5404,CHK-1404,TAG-90404,22.41,Screening,"{""heavy"": true}"
+BAG-5405,CHK-1405,TAG-90405,11.13,Loaded,
+BAG-5406,CHK-1406,TAG-90406,10.83,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5407,CHK-1407,TAG-90407,24.76,Checked,"{""heavy"": true}"
+BAG-5408,CHK-1408,TAG-90408,31.36,Delivered,"{""fragile"": true}"
+BAG-5409,CHK-1409,TAG-90409,24.54,Loaded,
+BAG-5410,CHK-1410,TAG-90410,22.71,Screening,"{""fragile"": true}"
+BAG-5411,CHK-1411,TAG-90411,22.05,Screening,"{""fragile"": true}"
+BAG-5412,CHK-1412,TAG-90412,10.45,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5413,CHK-1413,TAG-90413,31.11,Delivered,"{""fragile"": true}"
+BAG-5414,CHK-1414,TAG-90414,22.77,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5415,CHK-1415,TAG-90415,22.53,Delivered,"{""fragile"": true}"
+BAG-5416,CHK-1416,TAG-90416,31.16,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5417,CHK-1417,TAG-90417,13.28,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5418,CHK-1418,TAG-90418,13.23,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5419,CHK-1419,TAG-90419,17.00,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5420,CHK-1420,TAG-90420,14.27,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5421,CHK-1421,TAG-90421,23.52,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5422,CHK-1422,TAG-90422,10.65,Delivered,
+BAG-5423,CHK-1423,TAG-90423,10.89,Checked,"{""heavy"": true}"
+BAG-5424,CHK-1424,TAG-90424,17.42,Loaded,"{""fragile"": true}"
+BAG-5425,CHK-1425,TAG-90425,19.50,Checked,"{""fragile"": true}"
+BAG-5426,CHK-1426,TAG-90426,18.12,Loaded,
+BAG-5427,CHK-1427,TAG-90427,12.44,Loaded,"{""heavy"": true}"
+BAG-5428,CHK-1428,TAG-90428,28.96,Screening,"{""heavy"": true}"
+BAG-5429,CHK-1429,TAG-90429,16.56,Checked,
+BAG-5430,CHK-1430,TAG-90430,14.89,Screening,"{""fragile"": true}"
+BAG-5431,CHK-1431,TAG-90431,14.85,Checked,"{""fragile"": true}"
+BAG-5432,CHK-1432,TAG-90432,12.85,Delivered,"{""fragile"": true}"
+BAG-5433,CHK-1433,TAG-90433,31.29,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5434,CHK-1434,TAG-90434,25.69,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5435,CHK-1435,TAG-90435,21.82,Checked,"{""heavy"": true}"
+BAG-5436,CHK-1436,TAG-90436,10.12,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5437,CHK-1437,TAG-90437,10.70,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5438,CHK-1438,TAG-90438,14.50,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5439,CHK-1439,TAG-90439,17.99,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5440,CHK-1440,TAG-90440,23.14,Delivered,"{""heavy"": true}"
+BAG-5441,CHK-1441,TAG-90441,14.64,Delivered,
+BAG-5442,CHK-1442,TAG-90442,20.23,Loaded,
+BAG-5443,CHK-1443,TAG-90443,26.41,Loaded,
+BAG-5444,CHK-1444,TAG-90444,24.17,Delivered,
+BAG-5445,CHK-1445,TAG-90445,26.09,Loaded,
+BAG-5446,CHK-1446,TAG-90446,30.94,Screening,"{""fragile"": true}"
+BAG-5447,CHK-1447,TAG-90447,12.21,Screening,"{""heavy"": true}"
+BAG-5448,CHK-1448,TAG-90448,13.67,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5449,CHK-1449,TAG-90449,27.04,Screening,"{""heavy"": true}"
+BAG-5450,CHK-1450,TAG-90450,31.79,Checked,"{""heavy"": true}"
+BAG-5451,CHK-1451,TAG-90451,27.47,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5452,CHK-1452,TAG-90452,27.43,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5453,CHK-1453,TAG-90453,30.31,Loaded,
+BAG-5454,CHK-1454,TAG-90454,20.83,Checked,"{""heavy"": true}"
+BAG-5455,CHK-1455,TAG-90455,11.27,Delivered,"{""fragile"": true}"
+BAG-5456,CHK-1456,TAG-90456,29.71,Checked,"{""fragile"": true}"
+BAG-5457,CHK-1457,TAG-90457,27.38,Loaded,"{""heavy"": true}"
+BAG-5458,CHK-1458,TAG-90458,10.49,Delivered,"{""fragile"": true}"
+BAG-5459,CHK-1459,TAG-90459,15.52,Delivered,"{""fragile"": true}"
+BAG-5460,CHK-1460,TAG-90460,20.63,Delivered,
+BAG-5461,CHK-1461,TAG-90461,29.68,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5462,CHK-1462,TAG-90462,20.04,Delivered,"{""heavy"": true}"
+BAG-5463,CHK-1463,TAG-90463,30.98,Delivered,
+BAG-5464,CHK-1464,TAG-90464,30.70,Checked,"{""heavy"": true}"
+BAG-5465,CHK-1465,TAG-90465,20.61,Loaded,
+BAG-5466,CHK-1466,TAG-90466,28.61,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5467,CHK-1467,TAG-90467,28.96,Loaded,
+BAG-5468,CHK-1468,TAG-90468,10.97,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5469,CHK-1469,TAG-90469,10.12,Delivered,"{""fragile"": true}"
+BAG-5470,CHK-1470,TAG-90470,29.36,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5471,CHK-1471,TAG-90471,30.66,Checked,"{""priority"": true, ""fragile"": false}"
+BAG-5472,CHK-1472,TAG-90472,10.56,Screening,"{""heavy"": true}"
+BAG-5473,CHK-1473,TAG-90473,31.12,Delivered,
+BAG-5474,CHK-1474,TAG-90474,19.33,Delivered,
+BAG-5475,CHK-1475,TAG-90475,18.67,Delivered,"{""priority"": true, ""fragile"": false}"
+BAG-5476,CHK-1476,TAG-90476,23.93,Delivered,
+BAG-5477,CHK-1477,TAG-90477,18.15,Screening,"{""priority"": true, ""fragile"": false}"
+BAG-5478,CHK-1478,TAG-90478,13.86,Checked,"{""fragile"": true}"
+BAG-5479,CHK-1479,TAG-90479,11.07,Delivered,
+BAG-5480,CHK-1480,TAG-90480,24.04,Delivered,"{""fragile"": true}"
+BAG-5481,CHK-1481,TAG-90481,10.99,Screening,"{""fragile"": true}"
+BAG-5482,CHK-1482,TAG-90482,28.19,Checked,"{""fragile"": true}"
+BAG-5483,CHK-1483,TAG-90483,14.02,Screening,
+BAG-5484,CHK-1484,TAG-90484,15.16,Loaded,"{""priority"": true, ""fragile"": false}"
+BAG-5485,CHK-1485,TAG-90485,10.78,Delivered,"{""fragile"": true}"
+BAG-5486,CHK-1486,TAG-90486,27.15,Loaded,
+BAG-5487,CHK-1487,TAG-90487,20.63,Delivered,"{""heavy"": true}"
+BAG-5488,CHK-1488,TAG-90488,28.67,Delivered,"{""heavy"": true}"
+BAG-5489,CHK-1489,TAG-90489,21.92,Delivered,"{""fragile"": true}"
+BAG-5490,CHK-1490,TAG-90490,18.64,Checked,"{""fragile"": true}"
+BAG-5491,CHK-1491,TAG-90491,21.65,Checked,
+BAG-5492,CHK-1492,TAG-90492,14.27,Checked,"{""fragile"": true}"
+BAG-5493,CHK-1493,TAG-90493,16.01,Delivered,"{""fragile"": true}"
+BAG-5494,CHK-1494,TAG-90494,21.85,Screening,
+BAG-5495,CHK-1495,TAG-90495,16.60,Loaded,"{""fragile"": true}"
+BAG-5496,CHK-1496,TAG-90496,12.93,Delivered,"{""fragile"": true}"
+BAG-5497,CHK-1497,TAG-90497,11.48,Loaded,
+BAG-5498,CHK-1498,TAG-90498,31.83,Checked,
+BAG-5499,CHK-1499,TAG-90499,22.69,Loaded,"{""fragile"": true}"
+BAG-5500,CHK-1500,TAG-90500,17.01,Checked,"{""fragile"": true}"
