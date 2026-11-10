@@ -45,12 +45,23 @@ The project uses SQL, Python, and CSV files to populate the database:
 The CSV files contain 500 check-ins, 500 baggage records, and 1,000 scans. Optional baggage-handling values include blanks, which are loaded as `NULL`. The Python script `generate_csv_files.py` can create new CSV files from existing tickets.
 
 The screenshots below show the prototype and example records. They are not screenshots of the SQL or CSV import operations.
+![Dashboard records](./pictures/DASHBOARD.png)
 
 ![Reservation workflow](./pictures/PROCESS.png)
 
 ![Passenger records](./pictures/PASSENGERS.png)
 
-The assignment also asks for data from an external generator such as Mockaroo or GenerateData. An export from such a service is not currently included in this repository.
+![Tickets records](./pictures/TICKEY.png)
+
+![Baggege records](./pictures/BAGGEGE.png)
+
+![BaggegeScan records](./pictures/SCAN.png)
+
+![Flight records](./pictures/FLIGHT.png)
+
+![Seat records](./pictures/SEAT.png)
+
+![Checkin records](./pictures/CHECKIN.png)
 
 ## Normalization
 
