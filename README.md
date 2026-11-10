@@ -78,9 +78,4 @@ The screenshot shows pgAdmin query results used to verify restored tables and re
 
 ![Post-restore verification](./pictures/תהליך%20שחזור.jpg)
 
-## Remaining submission items
 
-- Add screenshots of the data-loading steps and the pgAdmin backup/restore operations.
-- Add an external data-generator export if required for the chosen population method.
-- Verify that the backup restores into a new empty database.
-- Share the Git repository with `timaluhs` and add the required Git tag.
