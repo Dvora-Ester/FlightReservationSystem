@@ -213,6 +213,135 @@ Create or select an empty target database, right-click it, choose **Restore...**
 
 No backup screenshots are currently included. Add screenshots of the pgAdmin backup settings (including the selected Custom format) and the successful completion message. Suggested locations: `docs/images/backup-settings.png` and `docs/images/backup-success.png`.
 
+## Normalization and Functional Dependencies
+
+This section analyzes every table in the schema defined in [`init-db/01-create-tables.sql`](./init-db/01-create-tables.sql). For each table it lists the functional dependencies (FDs), the candidate keys, the highest normal form satisfied, and the reasoning.
+
+### Definitions and assumptions
+
+- **Functional dependency (FD):** `X → Y` means that the value of `X` uniquely determines the value of `Y`.
+- **Candidate key:** a minimal set of attributes that determines all other attributes of the table. The primary key is one of the candidate keys.
+- **1NF:** all attribute values are atomic. The JSON columns (`Passenger.preferences` and `Baggage.special_handling`) are treated as single atomic values, because the system does not query or define dependencies on their internal contents. If searching by JSON content is needed in the future, they should be decomposed into separate tables.
+- **2NF:** the table is in 1NF and no non-key attribute depends on only part of a candidate key.
+- **3NF:** for every non-trivial FD `X → A`, either `X` is a superkey or `A` is part of a candidate key.
+- **BCNF:** for every non-trivial FD `X → A`, `X` must be a superkey. BCNF is stricter than 3NF, so a table in BCNF is also in 3NF.
+
+The FDs are derived from the keys and constraints actually defined in the SQL schema, together with the semantic assumptions stated under each table.
+
+---
+
+### 1. Passenger
+
+**Candidate key:** `passport_number` (the only candidate key).
+
+```text
+passport_number → first_name, last_name, nationality, birth_date, phone, preferences
+```
+
+- The passport number determines all other passenger details.
+- Name, nationality, birth date and phone do not determine one another and are not unique, so none of them is a key.
+- **Normal form: BCNF.** The only determinant is the primary key.
+
+### 2. Flight
+
+**Candidate key:** `flight_id`.
+
+```text
+flight_id → flight_name, flight_status, origin, destination,
+            departure_date, departure_time, arrival_date, arrival_time
+```
+
+- `flight_name` does not determine the other attributes, because the same flight name or number can operate on different dates, routes or times. It is therefore not a key.
+- Arrival date and time are not derivable from the other attributes, because flight duration is not stored in the table.
+- There are no dependencies between non-key attributes.
+- **Normal form: BCNF.**
+
+### 3. Seat
+
+**Candidate key:** `(flight_id, seat_number)`.
+
+```text
+(flight_id, seat_number) → seat_class, seat_position
+```
+
+- `seat_class` and `seat_position` depend on the whole key, not on part of it. Each flight has its own seat map, so `seat_number` alone does not determine the class or position.
+- There are no partial dependencies (2NF holds) and no transitive dependencies (3NF holds).
+- **Normal form: BCNF.**
+- *Assumption:* the seat map is defined per flight. If `seat_number → seat_position` held across all flights, there would be a partial dependency violating 2NF, and the table would need to be decomposed.
+
+### 4. Ticket
+
+**Candidate keys:**
+- `ticket_id` (primary key)
+- `(flight_id, seat_number)` (enforced by the `UNIQUE` constraint: a seat can be assigned to at most one ticket)
+
+```text
+ticket_id → passport_number, flight_id, seat_number,
+            booking_date, fare_class, price, ticket_status
+
+(flight_id, seat_number) → ticket_id, passport_number,
+                           booking_date, fare_class, price, ticket_status
+```
+
+- Both determinants are superkeys, so no dependency violates BCNF.
+- Passenger details are stored only in `Passenger`, and flight details only in `Flight`. The table holds only foreign keys to them, which avoids transitive dependencies such as `ticket_id → passport_number → first_name`.
+- `fare_class` does not determine `price`, because the price varies by flight and booking date.
+- **Normal form: BCNF.**
+
+### 5. CheckIn
+
+**Candidate keys:** `checkin_id` (primary key) and `ticket_id` (enforced by `UNIQUE`, modeling the 1:1 relationship with Ticket).
+
+```text
+checkin_id → ticket_id, checkin_date, checkin_time, boarding_group, checkin_channel
+ticket_id  → checkin_id, checkin_date, checkin_time, boarding_group, checkin_channel
+```
+
+- Both determinants are superkeys.
+- `boarding_group` and `checkin_channel` do not determine each other, and neither determines the check-in time.
+- **Normal form: BCNF.**
+
+### 6. Baggage
+
+**Candidate key:** `baggage_id`.
+
+```text
+baggage_id → checkin_id, tag_number, weight_kg, status, special_handling
+```
+
+- `checkin_id` is a foreign key and does not determine the other attributes, because a single check-in can have several bags with different weights and statuses.
+- `tag_number` may be unique in practice, in which case it would be an additional candidate key. Even then the table remains in BCNF. The current schema does not define a `UNIQUE` constraint on it.
+- **Normal form: BCNF.**
+
+### 7. BaggageScan
+
+**Candidate key:** `(baggage_id, scan_seq)`.
+
+```text
+(baggage_id, scan_seq) → scan_date, scan_time, location, scan_status
+```
+
+- Each scan is identified by its bag and its sequence number within that bag.
+- Bag details are not stored in this table, so there is no partial dependency on `baggage_id` alone.
+- `location` and `scan_status` do not determine each other or the scan time.
+- **Normal form: BCNF.**
+
+---
+
+### Summary
+
+| Table | Candidate key(s) | Normal form |
+| --- | --- | --- |
+| Passenger | `passport_number` | BCNF |
+| Flight | `flight_id` | BCNF |
+| Seat | `(flight_id, seat_number)` | BCNF |
+| Ticket | `ticket_id`, `(flight_id, seat_number)` | BCNF |
+| CheckIn | `checkin_id`, `ticket_id` | BCNF |
+| Baggage | `baggage_id` | BCNF |
+| BaggageScan | `(baggage_id, scan_seq)` | BCNF |
+
+**Conclusion:** All tables in the schema are in BCNF, and therefore also in 3NF. In every non-trivial functional dependency, the left-hand side is a superkey. Each piece of information (passenger, flight, seat, ticket, check-in, bag and scan details) is stored exactly once, and relationships between entities are expressed through foreign keys. As a result, there is no redundant data, and the schema is free of update, insertion and deletion anomalies.
+
 ## Repository layout
 
 ```text
