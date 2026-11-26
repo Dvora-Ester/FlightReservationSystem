@@ -2,23 +2,23 @@
 
 A PostgreSQL project for managing passengers, flights, seats, tickets, check-ins, baggage, and baggage scans. The repository includes a React frontend prototype, database scripts, and sample data. The frontend is a prototype and is not connected to a production backend.
 
-## Stage 2 - הסבר לצילומי המסך
+## Stage 2 - Screenshot Guide
 
-בתמונות ההשוואה של האינדקסים, **A מציג את השאילתה לפני יצירת האינדקס** ו-**B מציג אותה אחרי יצירת האינדקס**:
+In the index comparison screenshots, **A shows the query before the index is created**, and **B shows it after the index is created**:
 
-- [אינדקס בכרטיסים - A](./stage2/picture/a-index-ticket.jpg) / [B](./stage2/picture/b-index-ticket.jpg): חיפוש כרטיסים לפי מספר דרכון.
-- [אינדקס בכבודה - A](./stage2/picture/a-index-baggage.jpg) / [B](./stage2/picture/b-index-baggage.jpg): חיפוש כבודה לפי מזהה הצ'ק-אין.
-- [אינדקס בטיסות - A](./stage2/picture/a-index-flight.jpg) / [B](./stage2/picture/b-index-flight.jpg): חיפוש טיסות לפי טווח תאריכים.
+- [Ticket index - A](./stage2/picture/a-index-ticket.jpg) / [B](./stage2/picture/b-index-ticket.jpg): finds tickets by passport number.
+- [Baggage index - A](./stage2/picture/a-index-baggage.jpg) / [B](./stage2/picture/b-index-baggage.jpg): finds baggage by check-in ID.
+- [Flight index - A](./stage2/picture/a-index-flight.jpg) / [B](./stage2/picture/b-index-flight.jpg): finds flights within a date range.
 
-בתיקיית [צילומי השאילתות](./stage2/picture/queries/) מופיעות שתי גרסאות לכל שאילתה (first ו-second):
+The [query screenshots](./stage2/picture/queries/) show two versions of each query (first and second):
 
-- [שאילתה 1 - גרסה ראשונה](./stage2/picture/queries/query%201-first.jpg) ו-[שנייה](./stage2/picture/queries/query%201-second.jpg): חישוב אחוז התפוסה בכל טיסה. הראשונה מחברת מושבים וכרטיסים לפני הסיכום; השנייה מסכמת כל טבלה בנפרד ואז מחברת את התוצאות.
-- [שאילתה 2 - גרסה ראשונה](./stage2/picture/queries/query%202-first.jpg) ו-[שנייה](./stage2/picture/queries/query%202-second.jpg): מציאת הכרטיס היקר ביותר בכל טיסה. הראשונה משתמשת בתת-שאילתה עם MAX, והשנייה בדירוג RANK.
-- [שאילתה 3 - גרסה ראשונה](./stage2/picture/queries/query%203-first.jpg) ו-[שנייה](./stage2/picture/queries/query%203-second.jpg): איתור נוסעים ללא צ'ק-אין. הראשונה משתמשת ב-NOT IN, והשנייה ב-NOT EXISTS.
-- [שאילתה 4 - גרסה ראשונה](./stage2/picture/queries/query%204-first.jpg) ו-[שנייה](./stage2/picture/queries/query%204-second.jpg): הצגת הסריקה האחרונה של כל מזוודה. הראשונה משתמשת ב-MAX, והשנייה ב-ROW_NUMBER.
-- [צילום UPDATE](./stage2/picture/queries/update-first%20query.jpg): העלאת מחיר ב-10% לכרטיסים מאושרים לטיסות בדצמבר ובינואר.
+- [Query 1 - first version](./stage2/picture/queries/query%201-first.jpg) and [second version](./stage2/picture/queries/query%201-second.jpg): calculates seat occupancy for each flight. The first joins seats and tickets before aggregating; the second aggregates each table separately and then joins the results.
+- [Query 2 - first version](./stage2/picture/queries/query%202-first.jpg) and [second version](./stage2/picture/queries/query%202-second.jpg): finds the most expensive ticket on each flight. The first uses a subquery with MAX; the second uses the RANK window function.
+- [Query 3 - first version](./stage2/picture/queries/query%203-first.jpg) and [second version](./stage2/picture/queries/query%203-second.jpg): finds passengers who have not checked in. The first uses NOT IN; the second uses NOT EXISTS.
+- [Query 4 - first version](./stage2/picture/queries/query%204-first.jpg) and [second version](./stage2/picture/queries/query%204-second.jpg): shows the latest scan for each bag. The first uses MAX; the second uses ROW_NUMBER.
+- [UPDATE screenshot](./stage2/picture/queries/update-first%20query.jpg): increases the price by 10% for confirmed tickets on flights in December and January.
 
-צילומי [סיכום המחיר המקורי](./stage2/picture/sum-price%20ticket%20acoording%20to%20status.jpg), [אחרי העדכון בתוך הטרנזקציה](./stage2/picture/sum-price%20ticket%20acoording%20to%20status%20after-b.jpg) ו-[אחרי ROLLBACK](./stage2/picture/sum-price%20ticket%20acoording%20to%20status%20after-r.jpg) מדגימים שהעדכון משנה את הסכום בתוך הטרנזקציה, ואילו ROLLBACK מחזיר את הנתונים למצב המקורי.
+The [original price summary](./stage2/picture/sum-price%20ticket%20acoording%20to%20status.jpg), [summary after the update within the transaction](./stage2/picture/sum-price%20ticket%20acoording%20to%20status%20after-b.jpg), and [summary after ROLLBACK](./stage2/picture/sum-price%20ticket%20acoording%20to%20status%20after-r.jpg) show that the update changes the total within the transaction, while ROLLBACK restores the original data.
 
 ## System structure
 
