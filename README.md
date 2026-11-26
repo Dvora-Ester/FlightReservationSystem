@@ -2,6 +2,24 @@
 
 A PostgreSQL project for managing passengers, flights, seats, tickets, check-ins, baggage, and baggage scans. The repository includes a React frontend prototype, database scripts, and sample data. The frontend is a prototype and is not connected to a production backend.
 
+## Stage 2 - הסבר לצילומי המסך
+
+בתמונות ההשוואה של האינדקסים, **A מציג את השאילתה לפני יצירת האינדקס** ו-**B מציג אותה אחרי יצירת האינדקס**:
+
+- [אינדקס בכרטיסים - A](./stage2/picture/a-index-ticket.jpg) / [B](./stage2/picture/b-index-ticket.jpg): חיפוש כרטיסים לפי מספר דרכון.
+- [אינדקס בכבודה - A](./stage2/picture/a-index-baggage.jpg) / [B](./stage2/picture/b-index-baggage.jpg): חיפוש כבודה לפי מזהה הצ'ק-אין.
+- [אינדקס בטיסות - A](./stage2/picture/a-index-flight.jpg) / [B](./stage2/picture/b-index-flight.jpg): חיפוש טיסות לפי טווח תאריכים.
+
+בתיקיית [צילומי השאילתות](./stage2/picture/queries/) מופיעות שתי גרסאות לכל שאילתה (first ו-second):
+
+- [שאילתה 1 - גרסה ראשונה](./stage2/picture/queries/query%201-first.jpg) ו-[שנייה](./stage2/picture/queries/query%201-second.jpg): חישוב אחוז התפוסה בכל טיסה. הראשונה מחברת מושבים וכרטיסים לפני הסיכום; השנייה מסכמת כל טבלה בנפרד ואז מחברת את התוצאות.
+- [שאילתה 2 - גרסה ראשונה](./stage2/picture/queries/query%202-first.jpg) ו-[שנייה](./stage2/picture/queries/query%202-second.jpg): מציאת הכרטיס היקר ביותר בכל טיסה. הראשונה משתמשת בתת-שאילתה עם MAX, והשנייה בדירוג RANK.
+- [שאילתה 3 - גרסה ראשונה](./stage2/picture/queries/query%203-first.jpg) ו-[שנייה](./stage2/picture/queries/query%203-second.jpg): איתור נוסעים ללא צ'ק-אין. הראשונה משתמשת ב-NOT IN, והשנייה ב-NOT EXISTS.
+- [שאילתה 4 - גרסה ראשונה](./stage2/picture/queries/query%204-first.jpg) ו-[שנייה](./stage2/picture/queries/query%204-second.jpg): הצגת הסריקה האחרונה של כל מזוודה. הראשונה משתמשת ב-MAX, והשנייה ב-ROW_NUMBER.
+- [צילום UPDATE](./stage2/picture/queries/update-first%20query.jpg): העלאת מחיר ב-10% לכרטיסים מאושרים לטיסות בדצמבר ובינואר.
+
+צילומי [סיכום המחיר המקורי](./stage2/picture/sum-price%20ticket%20acoording%20to%20status.jpg), [אחרי העדכון בתוך הטרנזקציה](./stage2/picture/sum-price%20ticket%20acoording%20to%20status%20after-b.jpg) ו-[אחרי ROLLBACK](./stage2/picture/sum-price%20ticket%20acoording%20to%20status%20after-r.jpg) מדגימים שהעדכון משנה את הסכום בתוך הטרנזקציה, ואילו ROLLBACK מחזיר את הנתונים למצב המקורי.
+
 ## System structure
 
 - **PostgreSQL** stores the data and enforces relationships.
